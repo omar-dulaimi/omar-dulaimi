@@ -24,7 +24,7 @@ One more thing, GraphQL is awesome, give it a try if you're a techie!
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/thmsgbrt/risma-schema-sorter"><b>Prisma Schema Sorter</b></a></td>
+      <td><a href="https://github.com/thmsgbrt/prisma-schema-sorter"><b>Prisma Schema Sorter</b></a></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/prisma-schema-sorter?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/prisma-schema-sorter?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/prisma-schema-sorter?style=flat-square&labelColor=343b41"/></td>
