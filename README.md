@@ -20,6 +20,7 @@ One more thing, GraphQL is awesome, give it a try if you're a techie!
       <td><b>📚 Forks</b></td>
       <td><b>🛎 Issues</b></td>
       <td><b>📬 Pull requests</b></td>
+      <td><b>💾 Downloads</b></td>
     </tr>
   </thead>
   <tbody>
@@ -29,6 +30,7 @@ One more thing, GraphQL is awesome, give it a try if you're a techie!
       <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/prisma-schema-sorter?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/prisma-schema-sorter?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/prisma-schema-sorter?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/prisma-schema-sorter.svg"/></td>
     </tr>
      <tr>
       <td><a href="https://github.com/omar-dulaimi/prisma-query-inspector"><b>Prisma Query Inspector</b></a></td>
@@ -36,6 +38,48 @@ One more thing, GraphQL is awesome, give it a try if you're a techie!
       <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/prisma-query-inspector?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/prisma-query-inspector?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/prisma-query-inspector?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/prisma-query-inspector.svg"/></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h2>Contributions</h2>
+<table align="center">
+  <thead align="center">
+    <tr border: none;>
+      <td><b>🎁 Projects</b></td>
+      <td><b>⭐ Stars</b></td>
+      <td><b>📚 Forks</b></td>
+      <td><b>🛎 Issues</b></td>
+      <td><b>📬 Pull requests</b></td>
+      <td><b>💾 Downloads</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/garmeeh/next-seo"><b>Next SEO</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/garmeeh/next-seo?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/garmeeh/next-seo?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/garmeeh/next-seo?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/garmeeh/next-seo?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/next-seo.svg"/></td>
+    </tr>
+     <tr>
+      <td><a href="https://github.com/maticzav/nookies"><b>nookies</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/maticzav/nookies?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/maticzav/nookies?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/maticzav/nookies?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/maticzav/nookies?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/nookies.svg"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/notiz-dev/nestjs-prisma"><b>NestJS Prisma Library and Schematics</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/notiz-dev/nestjs-prisma?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/notiz-dev/nestjs-prisma?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/notiz-dev/nestjs-prisma?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/notiz-dev/nestjs-prisma?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/nestjs-prisma"/></td>
     </tr>
   </tbody>
 </table>
@@ -61,4 +105,3 @@ One more thing, GraphQL is awesome, give it a try if you're a techie!
     <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </p>
-
