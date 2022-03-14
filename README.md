@@ -45,7 +45,10 @@ One more thing, GraphQL is awesome, give it a try if you're a techie!
 <p align="center"> 
   <img src="https://github-readme-stats.vercel.app/api?username=omar-dulaimi&show_icons=true&theme=gotham" alt="omar-dulaimi" />
   <br/>
-  
+  <br/>
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=omar-dulaimi&theme=gotham" />
+  <br/>
+  <br/>  
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=omar-dulaimi&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=5" />
 </p>
 
