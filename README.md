@@ -31,7 +31,7 @@ One more thing, GraphQL is awesome, give it a try if you're a techie!
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/prisma-schema-sorter?style=flat-square&labelColor=343b41"/></td>
     </tr>
      <tr>
-      <td><a href="https://github.com/omar-dulaimi/prisma-schema-sorter"><b>Prisma Query Inspector</b></a></td>
+      <td><a href="https://github.com/omar-dulaimi/prisma-query-inspector"><b>Prisma Query Inspector</b></a></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/prisma-query-inspector?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/prisma-query-inspector?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/prisma-query-inspector?style=flat-square&labelColor=343b41"/></td>
