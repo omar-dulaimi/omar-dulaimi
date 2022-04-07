@@ -4,11 +4,11 @@
 
 <br />
 
-Computers and technology have always been a driving factor to me. Ever since I was a kid, I was hooked the second I had the opportunity to interact with any. Creating a new folder? yeah, pretty much magic to me back then. 
-This passion went along with me throughout the years and helped shape what I am right now; A Software Engineer, and I really enjoy what I do. 
-Programming is and always will be second nature to me, whenever I face problems, I dive deep and come up with insights not only enough to solve them; but also expand my horizons and come up with new perspectives at the same time. 
-I have worked with a vast set of technologies, covering backend, frontend, databases, devops, technical seo, etc. It never stops at that, I'm always multiple steps ahead by keeping up to date with the latest trends in software engineering and the open source. 
-Yeah, about that, I have contributed to a couple open source libraries that get thousands of weekly downloads :) and I'm just getting started, there'll be more to come in the near future. 
+Computers and technology have always been a driving factor to me. Ever since I was a kid, I was hooked the second I had the opportunity to interact with any. Creating a new folder? yeah, pretty much magic to me back then.
+This passion went along with me throughout the years and helped shape what I am right now; A Software Engineer, and I really enjoy what I do.
+Programming is and always will be second nature to me, whenever I face problems, I dive deep and come up with insights not only enough to solve them; but also expand my horizons and come up with new perspectives at the same time.
+I have worked with a vast set of technologies, covering backend, frontend, databases, devops, technical seo, etc. It never stops at that, I'm always multiple steps ahead by keeping up to date with the latest trends in software engineering and the open source.
+Yeah, about that, I have contributed to a couple open source libraries that get thousands of weekly downloads :) and I'm just getting started, there'll be more to come in the near future.
 One more thing, GraphQL is awesome, give it a try if you're a techie!
 
 <h2>Open source projects</h2>
@@ -50,7 +50,6 @@ One more thing, GraphQL is awesome, give it a try if you're a techie!
     </tr>
   </tbody>
 </table>
-
 
 <h2>Contributions</h2>
 <table align="center">
@@ -106,7 +105,12 @@ One more thing, GraphQL is awesome, give it a try if you're a techie!
   <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=omar-dulaimi" alt="omar-dulaimi" /></a>
 </p>
 
-  <h2>Where to find me</h2>
+<h2>Blog posts</h2>
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+<h2>Where to find me</h2>
 <p>
   <a href="https://github.com/omar-dulaimi" target="_blank">
     <img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />
