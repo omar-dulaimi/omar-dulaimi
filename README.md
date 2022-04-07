@@ -108,6 +108,8 @@ One more thing, GraphQL is awesome, give it a try if you're a techie!
 <h2>Blog posts</h2>
 
 <!-- BLOG-POST-LIST:START -->
+- [Use Boolean Search to get exact job results on LinkedIn](https://dev.to/omardulaimi/get-exact-job-results-with-boolean-search-on-linkedin-4651)
+- [Debug multiple bugs with vsCode without losing breakpoints](https://dev.to/omardulaimi/debug-multiple-bugs-with-vscode-without-losing-breakpoints-5d9i)
 <!-- BLOG-POST-LIST:END -->
 
 <h2>Where to find me</h2>
