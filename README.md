@@ -92,7 +92,6 @@ One more thing, GraphQL is awesome, give it a try if you're a techie!
   </tbody>
 </table>
 
-
 <h2>Stats</h2>
 <p align="center"> 
   <img src="https://github-readme-stats.vercel.app/api?username=omar-dulaimi&show_icons=true&theme=gotham" alt="omar-dulaimi" />
@@ -102,6 +101,9 @@ One more thing, GraphQL is awesome, give it a try if you're a techie!
   <br/>
   <br/>  
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=omar-dulaimi&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=5" />
+  <br/>
+  <br/>
+  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=omar-dulaimi" alt="omar-dulaimi" /></a>
 </p>
 
   <h2>Where to find me</h2>
