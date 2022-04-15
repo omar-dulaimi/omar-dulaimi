@@ -117,7 +117,7 @@ One more thing, GraphQL is awesome, give it a try if you're a techie!
 
 <!-- BLOG-POST-LIST:START -->
 - [How to automatically generate Joi schemas from your Prisma schema](https://dev.to/omardulaimi/how-to-automatically-generate-joi-schemas-from-your-prisma-schema-5hn3)
-- [Use Boolean Search to get exact job results on LinkedIn](https://dev.to/omardulaimi/get-exact-job-results-with-boolean-search-on-linkedin-4651)
+- [How to find exactly what you search for on LinkedIn](https://dev.to/omardulaimi/get-exact-job-results-with-boolean-search-on-linkedin-4651)
 - [Debug multiple bugs with vsCode without losing breakpoints](https://dev.to/omardulaimi/debug-multiple-bugs-with-vscode-without-losing-breakpoints-5d9i)
 <!-- BLOG-POST-LIST:END -->
 
