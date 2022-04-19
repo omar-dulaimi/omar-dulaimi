@@ -134,7 +134,6 @@ One more thing, GraphQL is awesome, give it a try if you're a techie!
 <h2>Blog posts</h2>
 
 <!-- BLOG-POST-LIST:START -->
-
 - [How to validate multiple schemas for the same field with Yup?](https://dev.to/omardulaimi/how-to-validate-multiple-object-schemas-for-the-same-field-with-yup-2op7)
 - [How to automatically generate Joi schemas from your Prisma schema](https://dev.to/omardulaimi/how-to-automatically-generate-joi-schemas-from-your-prisma-schema-5hn3)
 - [How to find exactly what you search for on LinkedIn](https://dev.to/omardulaimi/get-exact-job-results-with-boolean-search-on-linkedin-4651)
