@@ -71,6 +71,14 @@ One more thing, GraphQL is awesome, give it a try if you're a techie!
       <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/prisma-class-validator-generator?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/prisma-class-validator-generator?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/prisma-class-validator-generator.svg"/></td>
+    </tr>  
+     <tr>
+      <td><a href="https://github.com/omar-dulaimi/json-to-prisma-schema-convertor"><b>JSON to Prisma Schema Convertor</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/json-to-prisma-schema-convertor?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/json-to-prisma-schema-convertor?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/json-to-prisma-schema-convertor?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/json-to-prisma-schema-convertor?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/json-to-prisma-schema-convertor.svg"/></td>
     </tr>   
   </tbody>
 </table>
