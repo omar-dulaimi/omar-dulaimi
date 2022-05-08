@@ -80,6 +80,15 @@ One more thing, GraphQL is awesome, give it a try if you're a techie!
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/json-to-prisma-schema-convertor?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/json-to-prisma-schema-convertor.svg"/></td>
     </tr>   
+     <tr>
+      <td><a href="https://github.com/omar-dulaimi/prisma-zod-generator"><b>Prisma Zod Generator</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/prisma-zod-generator?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/prisma-zod-generator?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/prisma-zod-generator?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/prisma-zod-generator?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/prisma-zod-generator.svg"/></td>
+    </tr>
+    
   </tbody>
 </table>
 
@@ -142,6 +151,7 @@ One more thing, GraphQL is awesome, give it a try if you're a techie!
 <h2>Blog posts</h2>
 
 <!-- BLOG-POST-LIST:START -->
+
 - [How to validate multiple schemas for the same field with Yup?](https://dev.to/omardulaimi/how-to-validate-multiple-object-schemas-for-the-same-field-with-yup-2op7)
 - [How to automatically generate Joi schemas from your Prisma schema](https://dev.to/omardulaimi/how-to-automatically-generate-joi-schemas-from-your-prisma-schema-5hn3)
 - [How to find exactly what you search for on LinkedIn](https://dev.to/omardulaimi/get-exact-job-results-with-boolean-search-on-linkedin-4651)
