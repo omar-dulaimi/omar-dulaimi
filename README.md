@@ -83,7 +83,7 @@ Computers and technology have always been driving factors for me. Ever since I w
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/prisma-zod-generator?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/prisma-zod-generator.svg"/></td>
     </tr>
-         <tr>
+      <tr>
       <td><a href="https://github.com/omar-dulaimi/create-trpc-app"><b>Create tRPC App</b></a></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/create-trpc-app?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/create-trpc-app?style=flat-square&labelColor=343b41"/></td>
@@ -91,7 +91,14 @@ Computers and technology have always been driving factors for me. Ever since I w
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/create-trpc-app?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/create-trpc-appx.svg"/></td>
     </tr>
-    
+    <tr>
+      <td><a href="https://github.com/omar-dulaimi/prisma-trpc-generator"><b>Prisma tRPC Generator</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/prisma-trpc-generator?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/prisma-trpc-generator?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/prisma-trpc-generator?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/prisma-trpc-generator?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/prisma-trpc-generator.svg"/></td>
+    </tr>
   </tbody>
 </table>
 
