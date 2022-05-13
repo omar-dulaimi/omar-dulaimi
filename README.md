@@ -161,6 +161,7 @@ Computers and technology have always been driving factors for me. Ever since I w
 <h2>Blog posts</h2>
 
 <!-- BLOG-POST-LIST:START -->
+- [How to automatically generate Class Validator models from your Prisma schema](https://dev.to/omardulaimi/how-to-automatically-generate-class-validator-models-from-your-prisma-schema-40g8)
 - [Make an awesome 3D model of your Github contributions!](https://dev.to/omardulaimi/make-an-awesome-3d-model-of-your-github-contributions-5en0)
 - [How to automatically generate Yup schemas from your Prisma schema](https://dev.to/omardulaimi/how-to-automatically-generate-yup-schemas-from-your-prisma-schema-5ao5)
 - [How to validate multiple schemas for the same field with Yup?](https://dev.to/omardulaimi/how-to-validate-multiple-object-schemas-for-the-same-field-with-yup-2op7)
