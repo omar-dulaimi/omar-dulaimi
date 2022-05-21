@@ -107,6 +107,22 @@ Computers and technology have always been driving factors for me. Ever since I w
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/prisma-json-server-generator?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/prisma-json-server-generator.svg"/></td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/omar-dulaimi/trpc-shield"><b>tRPC Shield</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/trpc-shield?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/trpc-shield?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/trpc-shield?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/trpc-shield?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/trpc-shield.svg"/></td>
+    </tr>
+        <tr>
+      <td><a href="https://github.com/omar-dulaimi/prisma-trpc-shield-generator"><b>Prisma tRPC Shield Generator</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/prisma-trpc-shield-generator?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/prisma-trpc-shield-generator?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/prisma-trpc-shield-generator?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/prisma-trpc-shield-generator?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/prisma-trpc-shield-generator.svg"/></td>
+    </tr>
   </tbody>
 </table>
 
@@ -169,6 +185,7 @@ Computers and technology have always been driving factors for me. Ever since I w
 <h2>Blog posts</h2>
 
 <!-- BLOG-POST-LIST:START -->
+
 - [How to automatically generate Class Validator models from your Prisma schema](https://dev.to/omardulaimi/how-to-automatically-generate-class-validator-models-from-your-prisma-schema-40g8)
 - [Make an awesome 3D model of your Github contributions!](https://dev.to/omardulaimi/make-an-awesome-3d-model-of-your-github-contributions-5en0)
 - [How to automatically generate Yup schemas from your Prisma schema](https://dev.to/omardulaimi/how-to-automatically-generate-yup-schemas-from-your-prisma-schema-5ao5)
