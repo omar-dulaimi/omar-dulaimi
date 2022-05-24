@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="https://www.buymeacoffee.com/omardulaimi" target="_blank" style="display: inline-block;">
-    <img src="https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square" align="center" />
+    <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" align="center"/>
   </a>
 </div>
 
