@@ -2,6 +2,12 @@
 
 ![header](https://user-images.githubusercontent.com/11743389/156879955-cacb8504-006d-42cf-8ea8-8f387ede379c.png)
 
+<div align="center">
+  <a href="https://www.buymeacoffee.com/omardulaimi" target="_blank" style="display: inline-block;">
+    <img src="https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square" align="center" />
+  </a>
+</div>
+
 <br />
 
 Computers and technology have always been driving factors for me. Ever since I was a kid, I was hooked the second I had the opportunity to interact with any. Creating a new folder? Yeah, pretty much magic to me back then. This passion went along with me throughout the years and helped shape what I am right now; A Software Engineer, and I really enjoy what I do. Programming is and always will be second nature to me; whenever I face problems, I dive deep and come up with insights not only enough to solve them; but also to expand my horizons and come up with new perspectives at the same time. I have worked with many technologies, covering backend, frontend, databases, DevOps, technical SEO, etc. It never stops at that; I'm always multiple steps ahead by keeping up to date with the latest trends in software engineering and the open-source. I have contributed to a couple of libraries that get thousands of weekly downloads and built a few of my own, slowly growing in popularity and downloads, currently at 3K. I'm just getting started, and there'll be more to come soon. One more thing, GraphQL is awesome; give it a try if you're a techie!
