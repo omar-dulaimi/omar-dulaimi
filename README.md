@@ -191,6 +191,8 @@ Computers and technology have always been driving factors for me. Ever since I w
 <h2>Blog posts</h2>
 
 <!-- BLOG-POST-LIST:START -->
+- [Prefix-only modules in Nodejs 18](https://dev.to/omardulaimi/prefix-only-modules-in-nodejs-18-8df)
+- [Nodejs OS Module Cheetsheet](https://dev.to/omardulaimi/nodejs-os-module-cheetsheet-2kkj)
 - [How to create a JSON server from your Prisma schema?](https://dev.to/omardulaimi/how-to-create-a-json-server-from-your-prisma-schema-6el)
 - [How to automatically generate Class Validator models from your Prisma schema](https://dev.to/omardulaimi/how-to-automatically-generate-class-validator-models-from-your-prisma-schema-40g8)
 - [Make an awesome 3D model of your Github contributions!](https://dev.to/omardulaimi/make-an-awesome-3d-model-of-your-github-contributions-5en0)
