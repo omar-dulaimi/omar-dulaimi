@@ -121,13 +121,21 @@ Computers and technology have always been driving factors for me. Ever since I w
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/trpc-shield?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/trpc-shield.svg"/></td>
     </tr>
-        <tr>
+    <tr>
       <td><a href="https://github.com/omar-dulaimi/prisma-trpc-shield-generator"><b>Prisma tRPC Shield Generator</b></a></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/prisma-trpc-shield-generator?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/prisma-trpc-shield-generator?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/prisma-trpc-shield-generator?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/prisma-trpc-shield-generator?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/prisma-trpc-shield-generator.svg"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/omar-dulaimi/prisma-custom-models-generator"><b>Prisma Custom Models Generator</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/prisma-custom-models-generator?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/prisma-custom-models-generator?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/prisma-custom-models-generator?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/prisma-custom-models-generator?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/prisma-custom-models-generator.svg"/></td>
     </tr>
   </tbody>
 </table>
