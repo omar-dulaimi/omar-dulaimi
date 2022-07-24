@@ -199,6 +199,7 @@ Computers and technology have always been driving factors for me. Ever since I w
 <h2>Blog posts</h2>
 
 <!-- BLOG-POST-LIST:START -->
+- [Advanced logging in Javascript](https://dev.to/omardulaimi/advanced-logging-in-javascript-11ea)
 - [Prefix-only modules in Nodejs 18](https://dev.to/omardulaimi/prefix-only-modules-in-nodejs-18-8df)
 - [Nodejs OS Module Cheetsheet](https://dev.to/omardulaimi/nodejs-os-module-cheetsheet-2kkj)
 - [How to create a JSON server from your Prisma schema?](https://dev.to/omardulaimi/how-to-create-a-json-server-from-your-prisma-schema-6el)
