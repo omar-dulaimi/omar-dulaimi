@@ -199,6 +199,7 @@ Computers and technology have always been driving factors for me. Ever since I w
 <h2>Blog posts</h2>
 
 <!-- BLOG-POST-LIST:START -->
+- [Logging navigable trees in Javascript](https://dev.to/omardulaimi/logging-navigable-trees-in-javascript-jb8)
 - [Advanced logging in Javascript](https://dev.to/omardulaimi/advanced-logging-in-javascript-11ea)
 - [Prefix-only modules in Nodejs 18](https://dev.to/omardulaimi/prefix-only-modules-in-nodejs-18-8df)
 - [Nodejs OS Module Cheetsheet](https://dev.to/omardulaimi/nodejs-os-module-cheetsheet-2kkj)
