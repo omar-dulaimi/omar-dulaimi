@@ -199,6 +199,7 @@ Computers and technology have always been driving factors for me. Ever since I w
 <h2>Blog posts</h2>
 
 <!-- BLOG-POST-LIST:START -->
+- [Different ways to log messages in Nodejs](https://dev.to/omardulaimi/different-ways-to-log-messages-in-nodejs-4j9j)
 - [Logging navigable trees in Javascript](https://dev.to/omardulaimi/logging-navigable-trees-in-javascript-jb8)
 - [Advanced logging in Javascript](https://dev.to/omardulaimi/advanced-logging-in-javascript-11ea)
 - [Prefix-only modules in Nodejs 18](https://dev.to/omardulaimi/prefix-only-modules-in-nodejs-18-8df)
@@ -210,7 +211,6 @@ Computers and technology have always been driving factors for me. Ever since I w
 - [How to validate multiple schemas for the same field with Yup?](https://dev.to/omardulaimi/how-to-validate-multiple-object-schemas-for-the-same-field-with-yup-2op7)
 - [How to automatically generate Joi schemas from your Prisma schema](https://dev.to/omardulaimi/how-to-automatically-generate-joi-schemas-from-your-prisma-schema-5hn3)
 - [How to find exactly what you search for on LinkedIn](https://dev.to/omardulaimi/get-exact-job-results-with-boolean-search-on-linkedin-4651)
-- [Debug multiple bugs with vsCode without losing breakpoints](https://dev.to/omardulaimi/debug-multiple-bugs-with-vscode-without-losing-breakpoints-5d9i)
 <!-- BLOG-POST-LIST:END -->
 
 <h2>Where to find me</h2>
