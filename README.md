@@ -199,7 +199,7 @@ Computers and technology have always been driving factors for me. Ever since I w
 <h2>Blog posts</h2>
 
 <!-- BLOG-POST-LIST:START -->
-- [Cool Pure Nodejs Logger](https://dev.to/omardulaimi/cool-pure-nodejs-logger-446p)
+- [Pure Nodejs Logger](https://dev.to/omardulaimi/cool-pure-nodejs-logger-446p)
 - [What are 𝗳𝗶𝗹𝗲 𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗼𝗿𝘀 in 𝗡𝗼𝗱𝗲𝗷𝘀?](https://dev.to/omardulaimi/what-are-in--2jeh)
 - [Different ways to log messages in Nodejs](https://dev.to/omardulaimi/different-ways-to-log-messages-in-nodejs-4j9j)
 - [Logging navigable trees in Javascript](https://dev.to/omardulaimi/logging-navigable-trees-in-javascript-jb8)
