@@ -199,6 +199,7 @@ Computers and technology have always been driving factors for me. Ever since I w
 <h2>Blog posts</h2>
 
 <!-- BLOG-POST-LIST:START -->
+- [How to locate a hanging Node process?](https://dev.to/omardulaimi/how-to-locate-a-hanging-node-process-3akf)
 - [How to debug like a PRO in Nodejs?](https://dev.to/omardulaimi/how-to-debug-like-a-pro-in-nodejs-4bae)
 - [How to deprecate functions in Nodejs?](https://dev.to/omardulaimi/how-to-deprecate-functions-in-nodejs-1flk)
 - [Pure Nodejs Logger](https://dev.to/omardulaimi/cool-pure-nodejs-logger-446p)
@@ -210,7 +211,6 @@ Computers and technology have always been driving factors for me. Ever since I w
 - [Nodejs OS Module Cheetsheet](https://dev.to/omardulaimi/nodejs-os-module-cheetsheet-2kkj)
 - [How to create a JSON server from your Prisma schema?](https://dev.to/omardulaimi/how-to-create-a-json-server-from-your-prisma-schema-6el)
 - [How to automatically generate Class Validator models from your Prisma schema](https://dev.to/omardulaimi/how-to-automatically-generate-class-validator-models-from-your-prisma-schema-40g8)
-- [Make an awesome 3D model of your Github contributions!](https://dev.to/omardulaimi/make-an-awesome-3d-model-of-your-github-contributions-5en0)
 <!-- BLOG-POST-LIST:END -->
 
 <h2>Where to find me</h2>
