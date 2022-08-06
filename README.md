@@ -199,6 +199,8 @@ Computers and technology have always been driving factors for me. Ever since I w
 <h2>Blog posts</h2>
 
 <!-- BLOG-POST-LIST:START -->
+- [How to achieve backward compatibility in your Nodejs code?](https://dev.to/omardulaimi/how-to-achieve-backward-compatibility-in-your-nodejs-code-20b3)
+- [Build a String Telephone in Nodejs](https://dev.to/omardulaimi/build-a-string-telephone-in-nodejs-19fh)
 - [How to measure CPU time in Nodejs?](https://dev.to/omardulaimi/how-to-measure-cpu-time-in-nodejs-59m7)
 - [Natively parse command line args with Nodejs](https://dev.to/omardulaimi/natively-parse-command-line-args-with-nodejs-3gg)
 - [How to locate a hanging Node process?](https://dev.to/omardulaimi/how-to-locate-a-hanging-node-process-3akf)
@@ -209,8 +211,6 @@ Computers and technology have always been driving factors for me. Ever since I w
 - [Different ways to log messages in Nodejs](https://dev.to/omardulaimi/different-ways-to-log-messages-in-nodejs-4j9j)
 - [Logging navigable trees in Javascript](https://dev.to/omardulaimi/logging-navigable-trees-in-javascript-jb8)
 - [Advanced logging in Javascript](https://dev.to/omardulaimi/advanced-logging-in-javascript-11ea)
-- [Prefix-only modules in Nodejs 18](https://dev.to/omardulaimi/prefix-only-modules-in-nodejs-18-8df)
-- [Nodejs OS Module Cheetsheet](https://dev.to/omardulaimi/nodejs-os-module-cheetsheet-2kkj)
 <!-- BLOG-POST-LIST:END -->
 
 <h2>Where to find me</h2>
