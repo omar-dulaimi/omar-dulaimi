@@ -199,6 +199,8 @@ Computers and technology have always been driving factors for me. Ever since I w
 <h2>Blog posts</h2>
 
 <!-- BLOG-POST-LIST:START -->
+- [Check user&#39;s permissions on file/dir in Nodejs](https://dev.to/omardulaimi/check-users-permissions-on-filedir-in-nodejs-4b28)
+- [rm -rf in Nodejs?](https://dev.to/omardulaimi/rm-rf-in-nodejs-28n7)
 - [Watch files/directories changes in Nodejs](https://dev.to/omardulaimi/watch-filesdirectories-in-nodejs-5bi)
 - [How to achieve backward compatibility in your Nodejs code?](https://dev.to/omardulaimi/how-to-achieve-backward-compatibility-in-your-nodejs-code-20b3)
 - [Build a String Telephone in Nodejs](https://dev.to/omardulaimi/build-a-string-telephone-in-nodejs-19fh)
@@ -209,8 +211,6 @@ Computers and technology have always been driving factors for me. Ever since I w
 - [How to deprecate functions in Nodejs?](https://dev.to/omardulaimi/how-to-deprecate-functions-in-nodejs-1flk)
 - [Pure Nodejs Logger](https://dev.to/omardulaimi/cool-pure-nodejs-logger-446p)
 - [What are 𝗳𝗶𝗹𝗲 𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗼𝗿𝘀 in 𝗡𝗼𝗱𝗲𝗷𝘀?](https://dev.to/omardulaimi/what-are-in--2jeh)
-- [Different ways to log messages in Nodejs](https://dev.to/omardulaimi/different-ways-to-log-messages-in-nodejs-4j9j)
-- [Logging navigable trees in Javascript](https://dev.to/omardulaimi/logging-navigable-trees-in-javascript-jb8)
 <!-- BLOG-POST-LIST:END -->
 
 <h2>Where to find me</h2>
