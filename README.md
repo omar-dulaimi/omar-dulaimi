@@ -199,6 +199,7 @@ Computers and technology have always been driving factors for me. Ever since I w
 <h2>Blog posts</h2>
 
 <!-- BLOG-POST-LIST:START -->
+- [How to properly handle UTF-8 BOM files in Nodejs?](https://dev.to/omardulaimi/how-to-properly-handle-utf-8-bom-files-in-nodejs-1nmj)
 - [Check user&#39;s permissions on file/dir in Nodejs](https://dev.to/omardulaimi/check-users-permissions-on-filedir-in-nodejs-4b28)
 - [rm -rf in Nodejs?](https://dev.to/omardulaimi/rm-rf-in-nodejs-28n7)
 - [Watch files/directories changes in Nodejs](https://dev.to/omardulaimi/watch-filesdirectories-in-nodejs-5bi)
@@ -210,7 +211,6 @@ Computers and technology have always been driving factors for me. Ever since I w
 - [How to debug like a PRO in Nodejs?](https://dev.to/omardulaimi/how-to-debug-like-a-pro-in-nodejs-4bae)
 - [How to deprecate functions in Nodejs?](https://dev.to/omardulaimi/how-to-deprecate-functions-in-nodejs-1flk)
 - [Pure Nodejs Logger](https://dev.to/omardulaimi/cool-pure-nodejs-logger-446p)
-- [What are 𝗳𝗶𝗹𝗲 𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗼𝗿𝘀 in 𝗡𝗼𝗱𝗲𝗷𝘀?](https://dev.to/omardulaimi/what-are-in--2jeh)
 <!-- BLOG-POST-LIST:END -->
 
 <h2>Where to find me</h2>
