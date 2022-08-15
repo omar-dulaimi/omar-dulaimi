@@ -199,6 +199,7 @@ Computers and technology have always been driving factors for me. Ever since I w
 <h2>Blog posts</h2>
 
 <!-- BLOG-POST-LIST:START -->
+- [What is the best way to read directories in Nodejs?](https://dev.to/omardulaimi/what-is-the-best-way-to-read-directories-in-nodejs-3le2)
 - [How to create unique temporary directories in Nodejs?](https://dev.to/omardulaimi/how-to-create-unique-temporary-directories-in-nodejs-1n69)
 - [Full ES2022 Cheatsheet!](https://dev.to/omardulaimi/full-es2022-cheatsheet-4m9l)
 - [How to change ownership of a file in Nodejs?](https://dev.to/omardulaimi/how-to-change-ownership-of-a-file-in-nodejs-1fke)
@@ -210,7 +211,6 @@ Computers and technology have always been driving factors for me. Ever since I w
 - [How to achieve backward compatibility in your Nodejs code?](https://dev.to/omardulaimi/how-to-achieve-backward-compatibility-in-your-nodejs-code-20b3)
 - [Build a String Telephone in Nodejs](https://dev.to/omardulaimi/build-a-string-telephone-in-nodejs-19fh)
 - [How to measure CPU time in Nodejs?](https://dev.to/omardulaimi/how-to-measure-cpu-time-in-nodejs-59m7)
-- [Natively parse command line args with Nodejs](https://dev.to/omardulaimi/natively-parse-command-line-args-with-nodejs-3gg)
 <!-- BLOG-POST-LIST:END -->
 
 <h2>Where to find me</h2>
