@@ -199,6 +199,7 @@ Computers and technology have always been driving factors for me. Ever since I w
 <h2>Blog posts</h2>
 
 <!-- BLOG-POST-LIST:START -->
+- [How to create symbolic links in Nodejs?](https://dev.to/omardulaimi/how-to-create-symbolic-links-in-nodejs-3i3i)
 - [How to copy a file in Nodejs?](https://dev.to/omardulaimi/how-to-copy-a-file-in-nodejs-52pl)
 - [How to append contents to a file in Nodejs?](https://dev.to/omardulaimi/how-to-append-contents-to-a-file-in-nodejs-2fk6)
 - [What is the best way to read directories in Nodejs?](https://dev.to/omardulaimi/what-is-the-best-way-to-read-directories-in-nodejs-3le2)
@@ -210,7 +211,6 @@ Computers and technology have always been driving factors for me. Ever since I w
 - [Check user&#39;s permissions on file/dir in Nodejs](https://dev.to/omardulaimi/check-users-permissions-on-filedir-in-nodejs-4b28)
 - [rm -rf in Nodejs?](https://dev.to/omardulaimi/rm-rf-in-nodejs-28n7)
 - [Watch files/directories changes in Nodejs](https://dev.to/omardulaimi/watch-filesdirectories-in-nodejs-5bi)
-- [How to achieve backward compatibility in your Nodejs code?](https://dev.to/omardulaimi/how-to-achieve-backward-compatibility-in-your-nodejs-code-20b3)
 <!-- BLOG-POST-LIST:END -->
 
 <h2>Where to find me</h2>
