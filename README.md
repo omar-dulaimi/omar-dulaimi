@@ -199,6 +199,7 @@ Computers and technology have always been driving factors for me. Ever since I w
 <h2>Blog posts</h2>
 
 <!-- BLOG-POST-LIST:START -->
+- [JavaScript Internationalization CheatSheet!](https://dev.to/omardulaimi/full-javascript-internationalization-cheatsheet-3fo)
 - [How to change access and modification times in Nodejs?](https://dev.to/omardulaimi/how-to-change-access-and-modification-times-in-nodejs-4mm3)
 - [How to create symbolic links in Nodejs?](https://dev.to/omardulaimi/how-to-create-symbolic-links-in-nodejs-3i3i)
 - [How to copy a file in Nodejs?](https://dev.to/omardulaimi/how-to-copy-a-file-in-nodejs-52pl)
@@ -210,7 +211,6 @@ Computers and technology have always been driving factors for me. Ever since I w
 - [Change file/directory permissions in Nodejs](https://dev.to/omardulaimi/change-filedirectory-permissions-in-nodejs-fac)
 - [How to properly handle UTF-8 BOM files in Nodejs?](https://dev.to/omardulaimi/how-to-properly-handle-utf-8-bom-files-in-nodejs-1nmj)
 - [Check user&#39;s permissions on file/dir in Nodejs](https://dev.to/omardulaimi/check-users-permissions-on-filedir-in-nodejs-4b28)
-- [rm -rf in Nodejs?](https://dev.to/omardulaimi/rm-rf-in-nodejs-28n7)
 <!-- BLOG-POST-LIST:END -->
 
 <h2>Where to find me</h2>
