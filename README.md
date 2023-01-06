@@ -10,7 +10,7 @@
 
 <br />
 
-Computers and technology have always been driving factors for me. Ever since I was a kid, I was hooked the second I had the opportunity to interact with any. Creating a new folder? Yeah, pretty much magic to me back then. This passion went along with me throughout the years and helped shape what I am right now; A Software Engineer, and I really enjoy what I do. Programming is and always will be second nature to me; whenever I face problems, I dive deep and come up with insights not only enough to solve them; but also to expand my horizons and come up with new perspectives at the same time. I have worked with many technologies, covering backend, frontend, databases, DevOps, technical SEO, etc. It never stops at that; I'm always multiple steps ahead by keeping up to date with the latest trends in software engineering and the open-source. I have contributed to a couple of libraries that get thousands of weekly downloads and built a few of my own, slowly growing in popularity and downloads, currently at 10K. I'm just getting started, and there'll be more to come soon. One more thing, GraphQL is awesome; give it a try if you're a techie!
+Computers and technology have always been driving factors for me. Ever since I was a kid, I was hooked the second I had the opportunity to interact with any. Creating a new folder? Yeah, pretty much magic to me back then. This passion went along with me throughout the years and helped shape what I am right now; A Software Engineer, and I really enjoy what I do. Programming is and always will be second nature to me; whenever I face problems, I dive deep and come up with insights not only enough to solve them; but also to expand my horizons and come up with new perspectives at the same time. I have worked with many technologies, covering backend, frontend, databases, DevOps, technical SEO, etc. It never stops at that; I'm always multiple steps ahead by keeping up to date with the latest trends in software engineering and the open-source. I have contributed to a couple of libraries that get thousands of weekly downloads and built a few of my own, slowly growing in popularity and downloads, currently at 127K. I'm just getting started, and there'll be more to come soon.
 
 <h2>Open source projects</h2>
 <table align="center">
@@ -207,16 +207,18 @@ Computers and technology have always been driving factors for me. Ever since I w
 <h2>Blog posts</h2>
 
 <!-- BLOG-POST-LIST:START -->
-- [Prefix-only modules in Nodejs 18](https://dev.to/omardulaimi/prefix-only-modules-in-nodejs-18-8df)
-- [Nodejs OS Module Cheetsheet](https://dev.to/omardulaimi/nodejs-os-module-cheetsheet-2kkj)
-- [How to create a JSON server from your Prisma schema?](https://dev.to/omardulaimi/how-to-create-a-json-server-from-your-prisma-schema-6el)
-- [How to automatically generate Class Validator models from your Prisma schema](https://dev.to/omardulaimi/how-to-automatically-generate-class-validator-models-from-your-prisma-schema-40g8)
-- [Make an awesome 3D model of your Github contributions!](https://dev.to/omardulaimi/make-an-awesome-3d-model-of-your-github-contributions-5en0)
-- [How to automatically generate Yup schemas from your Prisma schema](https://dev.to/omardulaimi/how-to-automatically-generate-yup-schemas-from-your-prisma-schema-5ao5)
-- [How to validate multiple schemas for the same field with Yup?](https://dev.to/omardulaimi/how-to-validate-multiple-object-schemas-for-the-same-field-with-yup-2op7)
-- [How to automatically generate Joi schemas from your Prisma schema](https://dev.to/omardulaimi/how-to-automatically-generate-joi-schemas-from-your-prisma-schema-5hn3)
-- [How to find exactly what you search for on LinkedIn](https://dev.to/omardulaimi/get-exact-job-results-with-boolean-search-on-linkedin-4651)
-- [Debug multiple bugs with vsCode without losing breakpoints](https://dev.to/omardulaimi/debug-multiple-bugs-with-vscode-without-losing-breakpoints-5d9i)
+- [Full JavaScript Internationalization CheatSheet!](https://dev.to/omardulaimi/full-javascript-internationalization-cheatsheet-3fo)
+- [How to change access and modification times in Nodejs?](https://dev.to/omardulaimi/how-to-change-access-and-modification-times-in-nodejs-4mm3)
+- [How to create symbolic links in Nodejs?](https://dev.to/omardulaimi/how-to-create-symbolic-links-in-nodejs-3i3i)
+- [How to copy a file in Nodejs?](https://dev.to/omardulaimi/how-to-copy-a-file-in-nodejs-52pl)
+- [How to append contents to a file in Nodejs?](https://dev.to/omardulaimi/how-to-append-contents-to-a-file-in-nodejs-2fk6)
+- [What is the best way to read directories in Nodejs?](https://dev.to/omardulaimi/what-is-the-best-way-to-read-directories-in-nodejs-3le2)
+- [How to create unique temporary directories in Nodejs?](https://dev.to/omardulaimi/how-to-create-unique-temporary-directories-in-nodejs-1n69)
+- [Full ES2022 Cheatsheet!](https://dev.to/omardulaimi/full-es2022-cheatsheet-4m9l)
+- [How to change ownership of a file in Nodejs?](https://dev.to/omardulaimi/how-to-change-ownership-of-a-file-in-nodejs-1fke)
+- [Change file/directory permissions in Nodejs](https://dev.to/omardulaimi/change-filedirectory-permissions-in-nodejs-fac)
+- [How to properly handle UTF-8 BOM files in Nodejs?](https://dev.to/omardulaimi/how-to-properly-handle-utf-8-bom-files-in-nodejs-1nmj)
+- [Check user&#39;s permissions on file/dir in Nodejs](https://dev.to/omardulaimi/check-users-permissions-on-filedir-in-nodejs-4b28)
 <!-- BLOG-POST-LIST:END -->
 
 <h2>Where to find me</h2>
