@@ -161,6 +161,14 @@ Computers and technology have always been driving factors for me. Ever since I w
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/lang-firestore?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/lang-firestore.svg"/></td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/omar-dulaimi/firestore-indexes-diff"><b>Firestore Indexes Diff</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/firestore-indexes-diff?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/firestore-indexes-diff?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/firestore-indexes-diff?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/firestore-indexes-diff?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/firestore-indexes-diff.svg"/></td>
+    </tr>
   </tbody>
 </table>
 
