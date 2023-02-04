@@ -145,6 +145,22 @@ Computers and technology have always been driving factors for me. Ever since I w
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/graphql-shield-generator?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/graphql-shield-generator.svg"/></td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/omar-dulaimi/firebase-functions-downloader"><b>Firebase Functions Downloader</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/firebase-functions-downloader?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/firebase-functions-downloader?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/firebase-functions-downloader?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/firebase-functions-downloader?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/firebase-functions-downloader.svg"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/omar-dulaimi/lang-firestore"><b>lang-firestore</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/lang-firestore?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/lang-firestore?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/lang-firestore?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/lang-firestore?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/lang-firestore.svg"/></td>
+    </tr>
   </tbody>
 </table>
 
@@ -207,6 +223,7 @@ Computers and technology have always been driving factors for me. Ever since I w
 <h2>Blog posts</h2>
 
 <!-- BLOG-POST-LIST:START -->
+
 - [Full JavaScript Internationalization CheatSheet!](https://dev.to/omardulaimi/full-javascript-internationalization-cheatsheet-3fo)
 - [How to change access and modification times in Nodejs?](https://dev.to/omardulaimi/how-to-change-access-and-modification-times-in-nodejs-4mm3)
 - [How to create symbolic links in Nodejs?](https://dev.to/omardulaimi/how-to-create-symbolic-links-in-nodejs-3i3i)
