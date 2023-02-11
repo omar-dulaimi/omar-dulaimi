@@ -169,6 +169,22 @@ Computers and technology have always been driving factors for me. Ever since I w
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/firestore-indexes-diff?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/firestore-indexes-diff.svg"/></td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/omar-dulaimi/firestore-prisma"><b>Firestore Prisma</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/firestore-prisma?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/firestore-prisma?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/firestore-prisma?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/firestore-prisma?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/firestore-prisma.svg"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/omar-dulaimi/firestore-prisma-web"><b>Firestore Prisma Web</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/firestore-prisma-web?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/firestore-prisma-web?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/firestore-prisma-web?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/firestore-prisma-web?style=flat-square&labelColor=343b41"/></td>
+      <td></td>
+    </tr>
   </tbody>
 </table>
 
