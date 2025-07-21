@@ -125,7 +125,7 @@ jobs:
           
           This milestone represents the collective impact of open source tools 
           helping thousands of developers build better applications." \
-            --prerelease
+            --latest
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

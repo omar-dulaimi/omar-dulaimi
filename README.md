@@ -6,7 +6,7 @@
 
 ### 🚀 Full-Stack Engineer & Open Source Enthusiast
 
-[![Profile Views](https://pageview.vercel.app/?github_user=omar-dulaimi)](https://github.com/omar-dulaimi)
+[![Profile Views](https://komarev.com/ghpvc/?username=omar-dulaimi&label=Profile%20Views&color=brightgreen&style=flat-square)](https://github.com/omar-dulaimi)
 [![Sponsor](https://img.shields.io/badge/❤️_Sponsor-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/omar-dulaimi)
 
 </div>
