@@ -102,3 +102,30 @@ jobs:
             git push
           fi
 
+      - name: Create release with download stats
+        run: |
+          # Create a unique tag with timestamp to avoid conflicts
+          TIMESTAMP=$(date +%Y%m%d-%H%M%S)
+          TAG_NAME="downloads-${{ steps.downloads.outputs.downloads }}-${TIMESTAMP}"
+          
+          # Create release with download statistics
+          gh release create "${TAG_NAME}" \
+            --title "Download Stats Update - ${{ steps.downloads.outputs.formatted_downloads }}+" \
+            --notes "📊 **Total Downloads Milestone**
+
+          🎉 **${{ steps.downloads.outputs.formatted_downloads }}+ total downloads** across all npm packages!
+          
+          📈 **Package Breakdown:**
+          - Prisma ecosystem tools leading the way
+          - tRPC utilities gaining momentum  
+          - Firebase tools growing steadily
+          - Developer productivity extensions
+          
+          📅 **Recorded:** $(date '+%B %d, %Y at %H:%M UTC')
+          
+          This milestone represents the collective impact of open source tools 
+          helping thousands of developers build better applications." \
+            --prerelease
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
