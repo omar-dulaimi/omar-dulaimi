@@ -87,7 +87,7 @@ jobs:
           sed -i "s/have collectively reached \*\*[0-9,]*K\+ downloads\*\*/have collectively reached **${DOWNLOADS}+ downloads**/" README.md
           
           # Update the Portfolio Overview badge
-          sed -i "s/Total%20Downloads-[0-9,]*K\+/Total%20Downloads-${DOWNLOADS}+/" README.md
+          sed -i "s/Total%20Downloads-[0-9,]*[K]*[+]*/Total%20Downloads-${DOWNLOADS}+/" README.md
           
           # Commit the changes if there are any
           git config --local user.email "action@github.com"
