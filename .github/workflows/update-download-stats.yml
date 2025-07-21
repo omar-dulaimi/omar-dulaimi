@@ -102,18 +102,3 @@ jobs:
             git push
           fi
 
-      - name: Create release with download stats
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: downloads-${{ steps.downloads.outputs.downloads }}
-          release_name: Download Stats Update
-          body: |
-            📊 **Total Downloads Update**
-            
-            All npm packages combined: **${{ steps.downloads.outputs.formatted_downloads }}** downloads
-            
-            This release is automatically generated to track download statistics.
-          draft: false
-          prerelease: true
