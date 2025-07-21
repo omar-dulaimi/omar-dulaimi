@@ -51,7 +51,7 @@
 
 > **Building the future, one line of code at a time**
 
-I'm a passionate software engineer with a deep love for creating tools that make developers' lives easier. From **Prisma generators** to **Firebase utilities**, I specialize in building developer-focused libraries that have collectively reached **![Total Downloads](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Total%20Downloads&query=%24.downloads&url=https%3A%2F%2Fraw.githubusercontent.com%2Fomar-dulaimi%2Fomar-dulaimi%2Fmaster%2Fdownload_count.txt&style=flat-square&logo=npm)+ downloads**.
+I'm a passionate software engineer with a deep love for creating tools that make developers' lives easier. From **Prisma generators** to **Firebase utilities**, I specialize in building developer-focused libraries that have collectively reached **835K+ downloads**.
 
 ```typescript
 const omar = {
@@ -104,7 +104,7 @@ const omar = {
 <br><sub><b>Open Source Projects</b></sub>
 </td>
 <td align="center">
-<img src="https://img.shields.io/badge/dynamic/json?color=ff6b6b&label=Total%20Downloads&query=%24&url=https%3A%2F%2Fraw.githubusercontent.com%2Fomar-dulaimi%2Fomar-dulaimi%2Fmaster%2Fdownload_count.txt&style=for-the-badge&labelColor=000000&logo=npm&suffix=%2B"/>
+<img src="https://img.shields.io/badge/Total%20Downloads-835K+-ff6b6b?style=for-the-badge&labelColor=000000&logo=npm"/>
 <br><sub><b>NPM Downloads</b></sub>
 </td>
 <td align="center">

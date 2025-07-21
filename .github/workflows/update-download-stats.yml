@@ -80,20 +80,26 @@ jobs:
           # Create a temporary file with the current download count
           echo "${{ steps.downloads.outputs.downloads }}" > download_count.txt
           
-          # Update the README file - escape special characters in sed
+          # Update the README file with new download counts
           DOWNLOADS="${{ steps.downloads.outputs.formatted_downloads }}"
+          
+          # Update the About Me section
+          sed -i "s/have collectively reached \*\*[0-9,]*K\+ downloads\*\*/have collectively reached **${DOWNLOADS}+ downloads**/" README.md
+          
+          # Update the Portfolio Overview badge
+          sed -i "s/Total%20Downloads-[0-9,]*K\+/Total%20Downloads-${DOWNLOADS}+/" README.md
           
           # Commit the changes if there are any
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          if git diff --quiet download_count.txt 2>/dev/null || [ ! -f download_count.txt.bak ]; then
+          if git diff --quiet README.md download_count.txt; then
+            echo "No changes to commit"
+          else
             echo "Download count updated: $DOWNLOADS total downloads"
-            git add download_count.txt
+            git add README.md download_count.txt
             git commit -m "Update download statistics to $DOWNLOADS+ total downloads"
             git push
-          else
-            echo "No changes to commit"
           fi
 
       - name: Create release with download stats
