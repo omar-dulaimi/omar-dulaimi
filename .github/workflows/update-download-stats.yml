@@ -1,0 +1,112 @@
+name: Update Download Statistics
+
+on:
+  schedule:
+    # Runs every Monday at 6AM UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+jobs:
+  update-downloads:
+    name: Calculate and update total download count
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Calculate total downloads
+        id: downloads
+        run: |
+          # List of npm packages to check
+          packages=(
+            "prisma-schema-sorter"
+            "prisma-query-inspector"
+            "prisma-joi-generator"
+            "prisma-yup-generator"
+            "prisma-class-validator-generator"
+            "json-to-prisma-schema-convertor"
+            "prisma-zod-generator"
+            "create-trpc-appx"
+            "prisma-trpc-generator"
+            "prisma-json-server-generator"
+            "trpc-shield"
+            "prisma-trpc-shield-generator"
+            "prisma-custom-models-generator"
+            "graphql-shield-generator"
+            "firebase-functions-downloader"
+            "lang-firestore"
+            "firestore-indexes-diff"
+            "firestore-prisma"
+          )
+
+          total_downloads=0
+
+          echo "📦 Calculating download statistics..."
+          
+          for package in "${packages[@]}"; do
+            echo "Checking downloads for $package..."
+            downloads=$(curl -s "https://api.npmjs.org/downloads/range/2000-01-01:$(date +%Y-%m-%d)/$package" | node -e "
+              const data = JSON.parse(require('fs').readFileSync(0, 'utf8'));
+              if (data.downloads) {
+                const total = data.downloads.reduce((sum, day) => sum + day.downloads, 0);
+                console.log(total);
+              } else {
+                console.log(0);
+              }
+            ")
+            
+            if [ "$downloads" != "0" ]; then
+              echo "  → $downloads downloads"
+              total_downloads=$((total_downloads + downloads))
+            else
+              echo "  → Package not found or no data"
+            fi
+          done
+
+          # Format the number with commas
+          formatted_downloads=$(echo $total_downloads | sed ':a;s/\B[0-9]\{3\}\>/,&/;ta')
+          
+          echo "🎉 Total downloads: $formatted_downloads"
+          echo "downloads=$total_downloads" >> $GITHUB_OUTPUT
+          echo "formatted_downloads=$formatted_downloads" >> $GITHUB_OUTPUT
+
+      - name: Update README with download count
+        run: |
+          # Create a temporary file with the current download count
+          echo "${{ steps.downloads.outputs.downloads }}" > download_count.txt
+          
+          # Update the README file
+          sed -i "s/127K+ downloads/\${{ steps.downloads.outputs.formatted_downloads }}+ downloads/g" README.md
+          
+          # Commit the changes if there are any
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          if git diff --quiet README.md download_count.txt; then
+            echo "No changes to commit"
+          else
+            git add README.md download_count.txt
+            git commit -m "Update download statistics to ${{ steps.downloads.outputs.formatted_downloads }}+ total downloads"
+            git push
+          fi
+
+      - name: Create release with download stats
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: downloads-${{ steps.downloads.outputs.downloads }}
+          release_name: Download Stats Update
+          body: |
+            📊 **Total Downloads Update**
+            
+            All npm packages combined: **${{ steps.downloads.outputs.formatted_downloads }}** downloads
+            
+            This release is automatically generated to track download statistics.
+          draft: false
+          prerelease: true

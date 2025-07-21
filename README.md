@@ -1,27 +1,164 @@
-### Hello! ![pv](https://pageview.vercel.app/?github_user=omar-dulaimi)
-
-![header](https://user-images.githubusercontent.com/11743389/156879955-cacb8504-006d-42cf-8ea8-8f387ede379c.png)
-
 <div align="center">
-  <a href="https://www.buymeacoffee.com/omardulaimi" target="_blank" style="display: inline-block;">
-    <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" align="center"/>
-  </a>
+
+# 👋 Hey there, I'm Omar Dulaimi
+
+### 🚀 Full-Stack Engineer & Open Source Enthusiast
+
+[![Profile Views](https://pageview.vercel.app/?github_user=omar-dulaimi)](https://github.com/omar-dulaimi)
+[![Sponsor](https://img.shields.io/badge/❤️_Sponsor-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/omar-dulaimi)
+
 </div>
 
-<br />
+---
 
-Computers and technology have always been driving factors for me. Ever since I was a kid, I was hooked the second I had the opportunity to interact with any. Creating a new folder? Yeah, pretty much magic to me back then. This passion went along with me throughout the years and helped shape what I am right now; A Software Engineer, and I really enjoy what I do. Programming is and always will be second nature to me; whenever I face problems, I dive deep and come up with insights not only enough to solve them; but also to expand my horizons and come up with new perspectives at the same time. I have worked with many technologies, covering backend, frontend, databases, DevOps, technical SEO, etc. It never stops at that; I'm always multiple steps ahead by keeping up to date with the latest trends in software engineering and the open-source. I have contributed to a couple of libraries that get thousands of weekly downloads and built a few of my own, slowly growing in popularity and downloads, currently at 300K. I'm just getting started, and there'll be more to come soon.
+## 💖 Support My Work
 
-<h2>Open source projects</h2>
+<div align="center">
+
+### 🚀 Fuel the Future of Developer Tools
+
+> *Your sponsorship directly powers the creation of free, open-source tools that thousands of developers rely on daily*
+
+<br>
+
+**Why sponsor me?** 🤔
+- 🔧 **Direct Impact**: Every dollar helps me dedicate more time to building tools you actually use
+- 🆓 **Always Free**: All my libraries remain open-source and free forever
+- 🎯 **Developer-First**: I build solutions for real problems I've faced as a developer
+- 📈 **Growing Ecosystem**: Join a community that's already helped generate millions of downloads
+- 🏆 **Proven Track Record**: 20+ successful projects with active maintenance and support
+
+<br>
+
+**What your sponsorship enables:**
+- ⚡ Faster bug fixes and feature requests
+- 📚 Better documentation and tutorials  
+- 🔄 Regular updates and maintenance
+- 🆕 More innovative developer tools
+- 💬 Priority support and direct access
+
+<br>
+
+[![Sponsor Omar](https://img.shields.io/badge/❤️_Sponsor_Omar-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white&labelColor=000000)](https://github.com/sponsors/omar-dulaimi)
+
+<sub>💡 **Every contribution matters** - from $1 to $100, your support makes a real difference!</sub>
+
+</div>
+
+## 🎯 About Me
+
+> **Building the future, one line of code at a time**
+
+I'm a passionate software engineer with a deep love for creating tools that make developers' lives easier. From **Prisma generators** to **Firebase utilities**, I specialize in building developer-focused libraries that have collectively reached **![Total Downloads](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Total%20Downloads&query=%24.downloads&url=https%3A%2F%2Fraw.githubusercontent.com%2Fomar-dulaimi%2Fomar-dulaimi%2Fmaster%2Fdownload_count.txt&style=flat-square&logo=npm)+ downloads**.
+
+```typescript
+const omar = {
+  code: ['TypeScript', 'JavaScript', 'Node.js', 'React', 'Next.js'],
+  focus: ['Developer Tools', 'Open Source', 'API Design'],
+  specialties: ['Prisma Ecosystem', 'tRPC', 'Firebase', 'GraphQL'],
+  philosophy: 'Code with purpose, share with passion'
+};
+```
+
+**🔥 Current Focus:** Building tools that bridge the gap between databases and modern web development
+
+---
+
+## 🧰 Tech Stack & Expertise
+
+<div align="center">
+
+### 💻 Languages & Frameworks
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+
+### 🗄️ Databases & ORMs
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+
+### 🔧 Tools & Technologies
+![tRPC](https://img.shields.io/badge/tRPC-2596BE?style=for-the-badge&logo=trpc&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+
+</div>
+
+---
+
+## 📊 Portfolio Overview
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/Total%20Projects-20+-28a745?style=for-the-badge&labelColor=000000&logo=github"/>
+<br><sub><b>Open Source Projects</b></sub>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Total%20Downloads-1M+-ff6b6b?style=for-the-badge&labelColor=000000&logo=npm"/>
+<br><sub><b>NPM Downloads</b></sub>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Languages-5+-4ecdc4?style=for-the-badge&labelColor=000000&logo=code"/>
+<br><sub><b>Programming Languages</b></sub>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Ecosystem-Prisma%20Expert-6f42c1?style=for-the-badge&labelColor=000000&logo=prisma"/>
+<br><sub><b>Specialization</b></sub>
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## 🛠️ Featured Projects
+
+<div align="center">
+
+### 🏆 Open Source Portfolio
+
+> *Empowering developers with cutting-edge tools and utilities*
+
+</div>
+
+### 🔧 Prisma Ecosystem
+> *Complete toolkit for Prisma ORM - from schema management to validation generators*
+
+<div align="center">
+
+**🚀 Quick Install Popular Packages:**
+
+```bash
+# 🏆 Most Popular
+npm install prisma-zod-generator
+
+# 🥈 2nd Most Popular  
+npm install prisma-class-validator-generator
+
+# 🥉 3rd Most Popular
+npm install prisma-trpc-generator
+```
+
+</div>
+
 <table align="center">
   <thead align="center">
-    <tr border: none;>
-      <td><b>🎁 Projects</b></td>
+    <tr>
+      <td><b>🚀 Project</b></td>
       <td><b>⭐ Stars</b></td>
-      <td><b>📚 Forks</b></td>
-      <td><b>🛎 Issues</b></td>
-      <td><b>📬 Pull requests</b></td>
-      <td><b>💾 Downloads</b></td>
+      <td><b>🍴 Forks</b></td>
+      <td><b>🐛 Issues</b></td>
+      <td><b>🔀 PRs</b></td>
+      <td><b>📥 Downloads</b></td>
     </tr>
   </thead>
   <tbody>
@@ -41,14 +178,6 @@ Computers and technology have always been driving factors for me. Ever since I w
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/prisma-query-inspector?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/prisma-query-inspector.svg"/></td>
     </tr>
-    <tr>
-      <td><a href="https://github.com/omar-dulaimi/breakpoint-bookmarks"><b>Breakpoint Bookmarks</b></a></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/breakpoint-bookmarks?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/breakpoint-bookmarks?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/breakpoint-bookmarks?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/breakpoint-bookmarks?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Downloads" src="https://vsmarketplacebadge.apphb.com/downloads/OmarDulaimi.breakpoint-bookmarks.svg"/></td>
-    </tr>
      <tr>
       <td><a href="https://github.com/omar-dulaimi/prisma-joi-generator"><b>Prisma Joi Generator</b></a></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/prisma-joi-generator?style=flat-square&labelColor=343b41"/></td>
@@ -66,7 +195,7 @@ Computers and technology have always been driving factors for me. Ever since I w
       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/prisma-yup-generator.svg"/></td>
     </tr>
      <tr>
-      <td><a href="https://github.com/omar-dulaimi/prisma-class-validator-generator"><b>Prisma Class Validator Generator</b></a></td>
+      <td><a href="https://github.com/omar-dulaimi/prisma-class-validator-generator"><b>Prisma Class Validator Generator</b></a> <br><sub>🏅 <b>2nd Most Popular</b></sub></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/prisma-class-validator-generator?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/prisma-class-validator-generator?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/prisma-class-validator-generator?style=flat-square&labelColor=343b41"/></td>
@@ -82,7 +211,7 @@ Computers and technology have always been driving factors for me. Ever since I w
       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/json-to-prisma-schema-convertor.svg"/></td>
     </tr>   
      <tr>
-      <td><a href="https://github.com/omar-dulaimi/prisma-zod-generator"><b>Prisma Zod Generator</b></a></td>
+      <td><a href="https://github.com/omar-dulaimi/prisma-zod-generator"><b>Prisma Zod Generator</b></a> <br><sub>🏆 <b>Most Popular</b></sub></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/prisma-zod-generator?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/prisma-zod-generator?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/prisma-zod-generator?style=flat-square&labelColor=343b41"/></td>
@@ -98,7 +227,7 @@ Computers and technology have always been driving factors for me. Ever since I w
       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/create-trpc-appx.svg"/></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/omar-dulaimi/prisma-trpc-generator"><b>Prisma tRPC Generator</b></a></td>
+      <td><a href="https://github.com/omar-dulaimi/prisma-trpc-generator"><b>Prisma tRPC Generator</b></a> <br><sub>🥉 <b>3rd Most Popular</b></sub></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/prisma-trpc-generator?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/prisma-trpc-generator?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/prisma-trpc-generator?style=flat-square&labelColor=343b41"/></td>
@@ -137,14 +266,88 @@ Computers and technology have always been driving factors for me. Ever since I w
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/prisma-custom-models-generator?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/prisma-custom-models-generator.svg"/></td>
     </tr>
+  </tbody>
+</table>
+
+---
+
+### 🌐 tRPC & API Tools
+> *Type-safe APIs and modern backend solutions*
+
+<div align="center">
+
+**⚡ Quick Start:**
+```bash
+# Scaffold a new tRPC app
+npx create-trpc-appx@latest my-app
+
+# Add tRPC protection layer  
+npm install trpc-shield
+```
+
+</div>
+
+<table align="center">
+  <thead align="center">
     <tr>
-      <td><a href="https://github.com/omar-dulaimi/graphql-shield-generator"><b>GraphQL Shield Generator</b></a></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/graphql-shield-generator?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/graphql-shield-generator?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/graphql-shield-generator?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/graphql-shield-generator?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/graphql-shield-generator.svg"/></td>
+      <td><b>🚀 Project</b></td>
+      <td><b>⭐ Stars</b></td>
+      <td><b>🍴 Forks</b></td>
+      <td><b>🐛 Issues</b></td>
+      <td><b>🔀 PRs</b></td>
+      <td><b>📥 Downloads</b></td>
     </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/omar-dulaimi/create-trpc-app"><b>Create tRPC App</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/create-trpc-app?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/create-trpc-app?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/create-trpc-app?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/create-trpc-app?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/create-trpc-appx.svg"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/omar-dulaimi/trpc-shield"><b>tRPC Shield</b></a> <br><sub>🔥 <b>Popular</b></sub></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/trpc-shield?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/trpc-shield?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/trpc-shield?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/trpc-shield?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/trpc-shield.svg"/></td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### 🔥 Firebase & Cloud Tools
+> *Streamlined Firebase development and Firestore utilities*
+
+<div align="center">
+
+**🔧 Firebase Utilities:**
+```bash
+# Download Firebase Functions locally
+npm install firebase-functions-downloader
+
+# Firestore & Prisma integration
+npm install firestore-prisma
+```
+
+</div>
+
+<table align="center">
+  <thead align="center">
+    <tr>
+      <td><b>🚀 Project</b></td>
+      <td><b>⭐ Stars</b></td>
+      <td><b>🍴 Forks</b></td>
+      <td><b>🐛 Issues</b></td>
+      <td><b>🔀 PRs</b></td>
+      <td><b>📥 Downloads</b></td>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td><a href="https://github.com/omar-dulaimi/firebase-functions-downloader"><b>Firebase Functions Downloader</b></a></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/firebase-functions-downloader?style=flat-square&labelColor=343b41"/></td>
@@ -183,21 +386,82 @@ Computers and technology have always been driving factors for me. Ever since I w
       <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/firestore-prisma-web?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/firestore-prisma-web?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/firestore-prisma-web?style=flat-square&labelColor=343b41"/></td>
-      <td></td>
+      <td><img alt="Downloads" src="https://img.shields.io/badge/downloads-web%20app-blue?style=flat-square"/></td>
     </tr>
   </tbody>
 </table>
 
-<h2>Contributions</h2>
+---
+
+### 🛠️ Development Tools
+> *Enhanced developer experience and productivity tools*
+
+<div align="center">
+
+**🎯 Productivity Boosters:**
+- 🔖 **[Breakpoint Bookmarks](https://marketplace.visualstudio.com/items?itemName=OmarDulaimi.breakpoint-bookmarks)** - VS Code Extension
+- 🛡️ **GraphQL Shield Generator** - Auto-generate GraphQL permissions
+
+</div>
+
 <table align="center">
   <thead align="center">
-    <tr border: none;>
-      <td><b>🎁 Projects</b></td>
+    <tr>
+      <td><b>🚀 Project</b></td>
       <td><b>⭐ Stars</b></td>
-      <td><b>📚 Forks</b></td>
-      <td><b>🛎 Issues</b></td>
-      <td><b>📬 Pull requests</b></td>
-      <td><b>💾 Downloads</b></td>
+      <td><b>🍴 Forks</b></td>
+      <td><b>🐛 Issues</b></td>
+      <td><b>🔀 PRs</b></td>
+      <td><b>📥 Downloads</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/omar-dulaimi/breakpoint-bookmarks"><b>Breakpoint Bookmarks</b></a> <br><sub>💎 <b>VS Code Extension</b></sub></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/breakpoint-bookmarks?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/breakpoint-bookmarks?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/breakpoint-bookmarks?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/breakpoint-bookmarks?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://vsmarketplacebadge.apphb.com/downloads/OmarDulaimi.breakpoint-bookmarks.svg"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/omar-dulaimi/graphql-shield-generator"><b>GraphQL Shield Generator</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/graphql-shield-generator?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/graphql-shield-generator?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/graphql-shield-generator?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/graphql-shield-generator?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/graphql-shield-generator.svg"/></td>
+    </tr>
+  </tbody>
+</table>
+
+<div align="center">
+
+---
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Open%20Source%20Contributions&fontSize=30&fontAlignY=35&desc=Giving%20back%20to%20the%20community&descAlignY=55&descAlign=center"/>
+
+</div>
+
+## 🤝 Open Source Contributions
+
+<div align="center">
+
+### 🌟 Contributing to the Ecosystem
+
+> *Giving back to the community that shaped me*
+
+</div>
+
+<table align="center">
+  <thead align="center">
+    <tr>
+      <td><b>🚀 Project</b></td>
+      <td><b>⭐ Stars</b></td>
+      <td><b>🍴 Forks</b></td>
+      <td><b>🐛 Issues</b></td>
+      <td><b>🔀 PRs</b></td>
+      <td><b>📥 Downloads</b></td>
     </tr>
   </thead>
   <tbody>
@@ -228,23 +492,48 @@ Computers and technology have always been driving factors for me. Ever since I w
   </tbody>
 </table>
 
-<h2>Stats</h2>
-<p align="center"> 
-  <img src="https://github-readme-stats.vercel.app/api?username=omar-dulaimi&show_icons=true&theme=gotham" alt="omar-dulaimi" />
-  <br/>
-  <br/>
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=omar-dulaimi&theme=gotham" />
-  <br/>
-  <br/>  
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=omar-dulaimi&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=5" />
-</p>
+---
 
-<h2>Trophies</h2>
-<p align="center"> 
-  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=omar-dulaimi" alt="omar-dulaimi" /></a>
-</p>
+## 📊 GitHub Analytics
 
-<h2>Blog posts</h2>
+<div align="center">
+
+### 📈 Development Metrics
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=omar-dulaimi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true">
+  <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=omar-dulaimi&show_icons=true&theme=default&hide_border=true&count_private=true" height="180">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=omar-dulaimi&theme=tokyonight&hide_border=true">
+  <img alt="GitHub Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=omar-dulaimi&theme=default&hide_border=true" height="180">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=omar-dulaimi&layout=compact&theme=tokyonight&hide_border=true&langs_count=8">
+  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=omar-dulaimi&layout=compact&theme=default&hide_border=true&langs_count=8" height="180">
+</picture>
+
+### 🏆 GitHub Achievements
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=omar-dulaimi&theme=onedark&no-frame=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## 📝 Latest Blog Posts
+
+<div align="center">
+
+### ✍️ Sharing Knowledge & Insights
+
+> *Teaching what I learn, learning what I teach*
+
+[![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/omardulaimi)
+
+</div>
 
 <!-- BLOG-POST-LIST:START -->
 - [Full JavaScript Internationalization CheatSheet!](https://dev.to/omardulaimi/full-javascript-internationalization-cheatsheet-3fo)
@@ -261,12 +550,29 @@ Computers and technology have always been driving factors for me. Ever since I w
 - [Check user&#39;s permissions on file/dir in Nodejs](https://dev.to/omardulaimi/check-users-permissions-on-filedir-in-nodejs-4b28)
 <!-- BLOG-POST-LIST:END -->
 
-<h2>Where to find me</h2>
-<p>
-  <a href="https://github.com/omar-dulaimi" target="_blank">
-    <img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/omar-dulaimi" target="_blank">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-</p>
+---
+
+## 🤝 Let's Connect!
+
+<div align="center">
+
+### 💬 Always open to interesting conversations and collaborations
+
+<br>
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/omar-dulaimi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omar-dulaimi)
+[![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/omardulaimi)
+[![GitHub Sponsors](https://img.shields.io/badge/❤️_Sponsor-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/omar-dulaimi)
+
+<br>
+
+---
+
+<sub>💡 **Fun fact:** I believe every bug is just a feature waiting to be discovered!</sub>
+
+<br>
+
+![Wave](https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif) Thanks for visiting my profile!
+
+</div>
