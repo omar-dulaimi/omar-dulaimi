@@ -104,7 +104,7 @@ const omar = {
 <br><sub><b>Open Source Projects</b></sub>
 </td>
 <td align="center">
-<img src="https://img.shields.io/badge/Total%20Downloads-835,210+-ff6b6b?style=for-the-badge&labelColor=000000&logo=npm"/>
+<img src="https://img.shields.io/badge/Total%20Downloads-837,767+-ff6b6b?style=for-the-badge&labelColor=000000&logo=npm"/>
 <br><sub><b>NPM Downloads</b></sub>
 </td>
 <td align="center">
