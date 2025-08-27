@@ -538,6 +538,7 @@ npm install firestore-prisma
 </div>
 
 <!-- BLOG-POST-LIST:START -->
+- [[Boost]](https://dev.to/omardulaimi/-434l)
 - [Stop losing your breakpoints: Meet Breakpoint Bookmarks for VS Code](https://dev.to/omardulaimi/stop-losing-your-breakpoints-meet-breakpoint-bookmarks-for-vs-code-3c4b)
 - [Full JavaScript Internationalization CheatSheet!](https://dev.to/omardulaimi/full-javascript-internationalization-cheatsheet-3fo)
 - [How to change access and modification times in Nodejs?](https://dev.to/omardulaimi/how-to-change-access-and-modification-times-in-nodejs-4mm3)
@@ -549,7 +550,6 @@ npm install firestore-prisma
 - [Full ES2022 Cheatsheet!](https://dev.to/omardulaimi/full-es2022-cheatsheet-4m9l)
 - [How to change ownership of a file in Nodejs?](https://dev.to/omardulaimi/how-to-change-ownership-of-a-file-in-nodejs-1fke)
 - [Change file/directory permissions in Nodejs](https://dev.to/omardulaimi/change-filedirectory-permissions-in-nodejs-fac)
-- [How to properly handle UTF-8 BOM files in Nodejs?](https://dev.to/omardulaimi/how-to-properly-handle-utf-8-bom-files-in-nodejs-1nmj)
 <!-- BLOG-POST-LIST:END -->
 
 ---
