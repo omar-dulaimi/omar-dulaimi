@@ -42,6 +42,19 @@ jobs:
             "lang-firestore"
             "firestore-indexes-diff"
             "firestore-prisma"
+            "orpc-shield"
+            "prisma-orpc-generator"
+            "prisma-valibot-generator"
+            "@drzl/cli"
+            "@drzl/analyzer"
+            "@drzl/generator-zod"
+            "@drzl/generator-valibot"
+            "@drzl/generator-arktype"
+            "@drzl/generator-service"
+            "@drzl/generator-orpc"
+            "@drzl/validation-core"
+            "@drzl/template-orpc-service"
+            "@drzl/template-standard"
           )
 
           total_downloads=0
@@ -117,7 +130,8 @@ jobs:
           
           📈 **Package Breakdown:**
           - Prisma ecosystem tools leading the way
-          - tRPC utilities gaining momentum  
+          - Drizzle ORM codegen gaining traction
+          - tRPC & oRPC frameworks powering APIs
           - Firebase tools growing steadily
           - Developer productivity extensions
           

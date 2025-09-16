@@ -15,7 +15,7 @@
 
 ## 💖 Support My Work
 
-<div align="center">
+<div align="left">
 
 ### 🚀 Fuel the Future of Developer Tools
 
@@ -28,7 +28,7 @@
 - 🆓 **Always Free**: All my libraries remain open-source and free forever
 - 🎯 **Developer-First**: I build solutions for real problems I've faced as a developer
 - 📈 **Growing Ecosystem**: Join a community that's already helped generate millions of downloads
-- 🏆 **Proven Track Record**: 20+ successful projects with active maintenance and support
+- 🏆 **Proven Track Record**: 25+ successful projects with active maintenance and support
 
 <br>
 
@@ -51,13 +51,17 @@
 
 > **Building the future, one line of code at a time**
 
-I'm a passionate software engineer with a deep love for creating tools that make developers' lives easier. From **Prisma generators** to **Firebase utilities**, I specialize in building developer-focused libraries that have collectively reached **835K+ downloads**.
+I'm a passionate software engineer with a deep love for creating tools that make developers' lives easier. From **Prisma generators** to **Firebase utilities**, I specialize in building developer-focused libraries that have collectively reached **878K+ downloads**.
 
 ```typescript
 const omar = {
-  code: ['TypeScript', 'JavaScript', 'Node.js', 'React', 'Next.js'],
+  languages: ['TypeScript', 'JavaScript', 'Go'],
+  runtime: ['Node.js'],
+  frontend: ['React', 'Next.js', 'Angular'],
+  backend: ['Express', 'NestJS'],
+  tooling: ['Vite', 'Vitest', 'Tsup'],
   focus: ['Developer Tools', 'Open Source', 'API Design'],
-  specialties: ['Prisma Ecosystem', 'tRPC', 'Firebase', 'GraphQL'],
+  specialties: ['Prisma Ecosystem', 'Drizzle ORM', 'tRPC', 'oRPC', 'Firebase', 'GraphQL'],
   philosophy: 'Code with purpose, share with passion'
 };
 ```
@@ -141,13 +145,13 @@ const omar = {
 
 ```bash
 # 🏆 Most Popular
-npm install prisma-zod-generator
+pnpm add prisma-zod-generator
 
-# 🥈 2nd Most Popular  
-npm install prisma-class-validator-generator
+# 🥈 2nd Most Popular
+pnpm add prisma-class-validator-generator
 
 # 🥉 3rd Most Popular
-npm install prisma-trpc-generator
+pnpm add prisma-trpc-generator
 ```
 
 </div>
@@ -260,16 +264,32 @@ npm install prisma-trpc-generator
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/prisma-trpc-shield-generator?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/prisma-trpc-shield-generator.svg"/></td>
     </tr>
-    <tr>
-      <td><a href="https://github.com/omar-dulaimi/prisma-custom-models-generator"><b>Prisma Custom Models Generator</b></a></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/prisma-custom-models-generator?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/prisma-custom-models-generator?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/prisma-custom-models-generator?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/prisma-custom-models-generator?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/prisma-custom-models-generator.svg"/></td>
-    </tr>
-  </tbody>
-</table>
+     <tr>
+       <td><a href="https://github.com/omar-dulaimi/prisma-custom-models-generator"><b>Prisma Custom Models Generator</b></a></td>
+       <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/prisma-custom-models-generator?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/prisma-custom-models-generator?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/prisma-custom-models-generator?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/prisma-custom-models-generator?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/prisma-custom-models-generator.svg"/></td>
+     </tr>
+     <tr>
+       <td><a href="https://github.com/omar-dulaimi/prisma-orpc-generator"><b>Prisma oRPC Generator</b></a></td>
+       <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/prisma-orpc-generator?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/prisma-orpc-generator?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/prisma-orpc-generator?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/prisma-orpc-generator?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/prisma-orpc-generator.svg"/></td>
+     </tr>
+     <tr>
+       <td><a href="https://github.com/omar-dulaimi/prisma-valibot-generator"><b>Prisma Valibot Generator</b></a></td>
+       <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/prisma-valibot-generator?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/prisma-valibot-generator?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/prisma-valibot-generator?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/prisma-valibot-generator?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/prisma-valibot-generator.svg"/></td>
+     </tr>
+   </tbody>
+ </table>
 
 ---
 
@@ -281,10 +301,10 @@ npm install prisma-trpc-generator
 **⚡ Quick Start:**
 ```bash
 # Scaffold a new tRPC app
-npx create-trpc-appx@latest my-app
+pnpm dlx create-trpc-appx@latest my-app
 
-# Add tRPC protection layer  
-npm install trpc-shield
+# Add tRPC protection layer
+pnpm add trpc-shield
 ```
 
 </div>
@@ -309,13 +329,98 @@ npm install trpc-shield
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/create-trpc-app?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/create-trpc-appx.svg"/></td>
     </tr>
+     <tr>
+       <td><a href="https://github.com/omar-dulaimi/trpc-shield"><b>tRPC Shield</b></a> <br><sub>🔥 <b>Popular</b></sub></td>
+       <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/trpc-shield?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/trpc-shield?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/trpc-shield?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/trpc-shield?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/trpc-shield.svg"/></td>
+     </tr>
+   </tbody>
+ </table>
+
+---
+
+### 🚀 oRPC Ecosystem
+> *Next-generation RPC framework with type-safe APIs and modern tooling*
+
+<div align="center">
+
+**⚡ Quick Start:**
+```bash
+# Add oRPC protection layer
+pnpm add orpc-shield
+```
+
+</div>
+
+<table align="center">
+  <thead align="center">
     <tr>
-      <td><a href="https://github.com/omar-dulaimi/trpc-shield"><b>tRPC Shield</b></a> <br><sub>🔥 <b>Popular</b></sub></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/trpc-shield?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/trpc-shield?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/trpc-shield?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/trpc-shield?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/trpc-shield.svg"/></td>
+      <td><b>🚀 Project</b></td>
+      <td><b>⭐ Stars</b></td>
+      <td><b>🍴 Forks</b></td>
+      <td><b>🐛 Issues</b></td>
+      <td><b>🔀 PRs</b></td>
+      <td><b>📥 Downloads</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/omar-dulaimi/orpc-shield"><b>oRPC Shield</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/orpc-shield?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/orpc-shield?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/orpc-shield?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/orpc-shield?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/orpc-shield.svg"/></td>
+    </tr>
+   </tbody>
+ </table>
+
+---
+
+### 🗄️ Drizzle ORM Ecosystem
+> *Zero-friction codegen for Drizzle ORM - Generate validation, services, and routers automatically*
+
+<div align="left">
+
+**⚡ Quick Start:**
+```bash
+# Initialize DRZL config
+pnpm dlx drzl init
+
+# Generate code from your schema
+pnpm dlx drzl generate -c drzl.config.ts
+```
+
+**📦 Includes packages for:**
+- **Validation**: Zod, Valibot, ArkType generators
+- **Services**: Typed CRUD service generator
+- **APIs**: oRPC router templates
+- **Core**: Schema analyzer & shared utilities
+
+</div>
+
+<table align="center">
+  <thead align="center">
+    <tr>
+      <td><b>🚀 Project</b></td>
+      <td><b>⭐ Stars</b></td>
+      <td><b>🍴 Forks</b></td>
+      <td><b>🐛 Issues</b></td>
+      <td><b>🔀 PRs</b></td>
+      <td><b>📥 Downloads</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/use-drzl/drzl"><b>DRZL</b></a> <br><sub>🗄️ <b>Complete Codegen Suite</b></sub></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/use-drzl/drzl?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/use-drzl/drzl?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/use-drzl/drzl?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/use-drzl/drzl?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/@drzl/cli.svg"/></td>
     </tr>
   </tbody>
 </table>
@@ -330,10 +435,10 @@ npm install trpc-shield
 **🔧 Firebase Utilities:**
 ```bash
 # Download Firebase Functions locally
-npm install firebase-functions-downloader
+pnpm add firebase-functions-downloader
 
 # Firestore & Prisma integration
-npm install firestore-prisma
+pnpm add firestore-prisma
 ```
 
 </div>
@@ -382,23 +487,31 @@ npm install firestore-prisma
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/firestore-prisma?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/firestore-prisma.svg"/></td>
     </tr>
-    <tr>
-      <td><a href="https://github.com/omar-dulaimi/firestore-prisma-web"><b>Firestore Prisma Web</b></a></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/firestore-prisma-web?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/firestore-prisma-web?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/firestore-prisma-web?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/firestore-prisma-web?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Downloads" src="https://img.shields.io/badge/downloads-web%20app-blue?style=flat-square"/></td>
-    </tr>
-  </tbody>
-</table>
+     <tr>
+       <td><a href="https://github.com/omar-dulaimi/firestore-prisma-web"><b>Firestore Prisma Web</b></a></td>
+       <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/firestore-prisma-web?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/firestore-prisma-web?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/firestore-prisma-web?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/firestore-prisma-web?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Downloads" src="https://img.shields.io/badge/downloads-web%20app-blue?style=flat-square"/></td>
+     </tr>
+     <tr>
+       <td><a href="https://github.com/omar-dulaimi/firescope"><b>FireScope</b></a> <br><sub>🔥 <b>Chrome DevTools Panel</b></sub></td>
+       <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/firescope?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/firescope?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/firescope?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/firescope?style=flat-square&labelColor=343b41"/></td>
+        <td><img alt="Downloads" src="https://img.shields.io/badge/downloads-Chrome%20Web%20Store-blue?style=flat-square"/></td>
+     </tr>
+   </tbody>
+ </table>
 
 ---
 
 ### 🛠️ Development Tools
 > *Enhanced developer experience and productivity tools*
 
-<div align="center">
+<div align="left">
 
 **🎯 Productivity Boosters:**
 - 🔖 **[Breakpoint Bookmarks](https://marketplace.visualstudio.com/items?itemName=OmarDulaimi.breakpoint-bookmarks)** - VS Code Extension
@@ -424,18 +537,18 @@ npm install firestore-prisma
       <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/breakpoint-bookmarks?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/breakpoint-bookmarks?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/breakpoint-bookmarks?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Downloads" src="https://vsmarketplacebadge.apphb.com/downloads/OmarDulaimi.breakpoint-bookmarks.svg"/></td>
+        <td><img alt="Downloads" src="https://img.shields.io/visual-studio-marketplace/d/OmarDulaimi.breakpoint-bookmarks?style=flat-square&labelColor=343b41"/></td>
     </tr>
-    <tr>
-      <td><a href="https://github.com/omar-dulaimi/graphql-shield-generator"><b>GraphQL Shield Generator</b></a></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/graphql-shield-generator?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/graphql-shield-generator?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/graphql-shield-generator?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/graphql-shield-generator?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Downloads" src="https://img.shields.io/npm/dt/graphql-shield-generator.svg"/></td>
-    </tr>
-  </tbody>
-</table>
+     <tr>
+       <td><a href="https://github.com/omar-dulaimi/graphql-shield-generator"><b>GraphQL Shield Generator</b></a></td>
+       <td><img alt="Stars" src="https://img.shields.io/github/stars/omar-dulaimi/graphql-shield-generator?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Forks" src="https://img.shields.io/github/forks/omar-dulaimi/graphql-shield-generator?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Issues" src="https://img.shields.io/github/issues/omar-dulaimi/graphql-shield-generator?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/omar-dulaimi/graphql-shield-generator?style=flat-square&labelColor=343b41"/></td>
+       <td><img alt="Downloads" src="https://img.shields.io/npm/dt/graphql-shield-generator.svg"/></td>
+     </tr>
+   </tbody>
+ </table>
 
 <div align="center">
 
