@@ -30,9 +30,11 @@ React / Next.js · NestJS
 
 ## Projects
 
+<sub>Download figures are npm's last-18-months count — shields.io no longer serves lifetime totals.</sub>
+
 ### Prisma
 
-| Project | Stars | Downloads (18m) |
+| Project | Stars | Downloads |
 | --- | --- | --- |
 | [prisma-zod-generator](https://github.com/omar-dulaimi/prisma-zod-generator) | ![stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-zod-generator?style=flat-square&label=&labelColor=343b41) | ![downloads](https://img.shields.io/npm/d18m/prisma-zod-generator?style=flat-square&label=&labelColor=343b41) |
 | [prisma-next-zod-json](https://github.com/omar-dulaimi/prisma-next-zod-json) | ![stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-next-zod-json?style=flat-square&label=&labelColor=343b41) | ![downloads](https://img.shields.io/npm/d18m/prisma-next-zod-json?style=flat-square&label=&labelColor=343b41) |
@@ -51,7 +53,7 @@ React / Next.js · NestJS
 
 ### tRPC and oRPC
 
-| Project | Stars | Downloads (18m) |
+| Project | Stars | Downloads |
 | --- | --- | --- |
 | [trpc-shield](https://github.com/omar-dulaimi/trpc-shield) | ![stars](https://img.shields.io/github/stars/omar-dulaimi/trpc-shield?style=flat-square&label=&labelColor=343b41) | ![downloads](https://img.shields.io/npm/d18m/trpc-shield?style=flat-square&label=&labelColor=343b41) |
 | [orpc-shield](https://github.com/omar-dulaimi/orpc-shield) | ![stars](https://img.shields.io/github/stars/omar-dulaimi/orpc-shield?style=flat-square&label=&labelColor=343b41) | ![downloads](https://img.shields.io/npm/d18m/orpc-shield?style=flat-square&label=&labelColor=343b41) |
@@ -62,13 +64,13 @@ React / Next.js · NestJS
 [**DRZL**](https://github.com/use-drzl/drzl) — adapter-based codegen for Drizzle: Zod, Valibot and
 ArkType validators, typed CRUD services, and oRPC routers from your existing schema.
 
-| Project | Stars | Downloads (18m) |
+| Project | Stars | Downloads |
 | --- | --- | --- |
 | [use-drzl/drzl](https://github.com/use-drzl/drzl) | ![stars](https://img.shields.io/github/stars/use-drzl/drzl?style=flat-square&label=&labelColor=343b41) | ![downloads](https://img.shields.io/npm/d18m/@drzl/cli?style=flat-square&label=&labelColor=343b41) |
 
 ### Firebase and Firestore
 
-| Project | Stars | Downloads (18m) |
+| Project | Stars | Downloads |
 | --- | --- | --- |
 | [firescope](https://github.com/omar-dulaimi/firescope) — Chrome DevTools panel for Firestore | ![stars](https://img.shields.io/github/stars/omar-dulaimi/firescope?style=flat-square&label=&labelColor=343b41) | — |
 | [firestore-prisma](https://github.com/omar-dulaimi/firestore-prisma) | ![stars](https://img.shields.io/github/stars/omar-dulaimi/firestore-prisma?style=flat-square&label=&labelColor=343b41) | ![downloads](https://img.shields.io/npm/d18m/firestore-prisma?style=flat-square&label=&labelColor=343b41) |
@@ -78,7 +80,7 @@ ArkType validators, typed CRUD services, and oRPC routers from your existing sch
 
 ### Other tools
 
-| Project | Stars | Downloads (18m) |
+| Project | Stars | Downloads |
 | --- | --- | --- |
 | [breakpoint-bookmarks](https://github.com/omar-dulaimi/breakpoint-bookmarks) — VS Code extension | ![stars](https://img.shields.io/github/stars/omar-dulaimi/breakpoint-bookmarks?style=flat-square&label=&labelColor=343b41) | ![installs](https://img.shields.io/visual-studio-marketplace/d/OmarDulaimi.breakpoint-bookmarks?style=flat-square&label=&labelColor=343b41) |
 | [graphql-shield-generator](https://github.com/omar-dulaimi/graphql-shield-generator) | ![stars](https://img.shields.io/github/stars/omar-dulaimi/graphql-shield-generator?style=flat-square&label=&labelColor=343b41) | ![downloads](https://img.shields.io/npm/d18m/graphql-shield-generator?style=flat-square&label=&labelColor=343b41) |
