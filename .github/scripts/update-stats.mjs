@@ -29,13 +29,13 @@ const iso = (d) => d.toISOString().slice(0, 10);
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 let lastRequest = 0;
-const MIN_GAP_MS = 320;
+const MIN_GAP_MS = 600;
 
 /**
  * One throttled, retrying fetch for everything. `softNotFound` lets a 404 mean "no data for this
  * window" (a package younger than the chunk) instead of an error; every other failure is real.
  */
-async function json(url, { headers = {}, softNotFound = false, attempts = 5 } = {}) {
+async function json(url, { headers = {}, softNotFound = false, attempts = 6 } = {}) {
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
     const wait = Math.max(0, MIN_GAP_MS - (Date.now() - lastRequest));
     if (wait > 0) await sleep(wait);
@@ -58,7 +58,7 @@ async function json(url, { headers = {}, softNotFound = false, attempts = 5 } = 
       throw new Error(`${res.status} ${res.statusText} for ${url}`);
     }
     if (attempt === attempts) throw new Error(`${res.status} after ${attempts} attempts for ${url}`);
-    const backoff = attempt * 2500;
+    const backoff = attempt * 5000;
     console.log(`  ${res.status} — retrying in ${backoff}ms (${attempt}/${attempts - 1})`);
     await sleep(backoff);
   }
@@ -103,9 +103,27 @@ async function npmDownloads(pkg) {
   return total;
 }
 
-async function npmWeekly(pkg) {
-  const data = await json(`https://api.npmjs.org/downloads/point/last-week/${pkg}`, { softNotFound: true });
-  return data?.downloads ?? 0;
+async function weeklyForAll(packages) {
+  const weekly = new Map();
+  const scoped = packages.filter((p) => p.startsWith('@'));
+  const plain = packages.filter((p) => !p.startsWith('@'));
+
+  // "scoped packages are not currently supported in bulk lookups", so batch the rest and do these one
+  // at a time.
+  for (let i = 0; i < plain.length; i += 100) {
+    const batch = plain.slice(i, i + 100);
+    const data = await json(
+      `https://api.npmjs.org/downloads/point/last-week/${batch.join(',')}`,
+      { softNotFound: true },
+    );
+    for (const [name, entry] of Object.entries(data ?? {})) weekly.set(name, entry?.downloads ?? 0);
+  }
+
+  for (const pkg of scoped) {
+    const data = await json(`https://api.npmjs.org/downloads/point/last-week/${pkg}`, { softNotFound: true });
+    weekly.set(pkg, data?.downloads ?? 0);
+  }
+  return weekly;
 }
 
 async function vscodeInstalls(extensionId) {
@@ -126,6 +144,13 @@ async function vscodeInstalls(extensionId) {
 }
 
 const group = (n) => n.toLocaleString('en-GB');
+
+/** 2,999,721 -> "3.00M", 243,479 -> "243.48K". Below a thousand the exact number is short enough. */
+const compact = (n) => {
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(2)}M`;
+  if (n >= 1_000) return `${(n / 1_000).toFixed(2)}K`;
+  return String(n);
+};
 
 /**
  * shields.io's static badge route, with the value baked in. Used for downloads because shields can no
@@ -153,6 +178,11 @@ function splice(source, marker, replacement) {
 }
 
 const { groups } = JSON.parse(readFileSync(DATA, 'utf8'));
+
+const allPackages = groups.flatMap((g) =>
+  g.projects.flatMap((p) => (p.npm ? (Array.isArray(p.npm) ? p.npm : [p.npm]) : [])),
+);
+const weeklyByPackage = await weeklyForAll(allPackages);
 const sections = [];
 let weeklyTotal = 0;
 let grandTotal = 0;
@@ -168,28 +198,39 @@ for (const g of groups) {
     const title = `[${name}](https://github.com/${p.repo})${p.note ? ` — ${p.note}` : ''}`;
     const starCount = await stars(p.repo);
 
-    let cell = '—';
+    // `shown` goes on the badge, `exact` into the alt text — a screen reader gets the precise figure
+    // while the page stays readable.
+    let shown = null;
+    let exact = null;
+    let colour = '343b41';
     const pkgs = p.npm ? (Array.isArray(p.npm) ? p.npm : [p.npm]) : [];
 
     if (pkgs.length > 0) {
       let total = 0;
       for (const pkg of pkgs) {
         total += await npmDownloads(pkg);
-        weeklyTotal += await npmWeekly(pkg);
+        weeklyTotal += weeklyByPackage.get(pkg) ?? 0;
       }
-      // A package published days ago has no recorded downloads yet; that is "new", not "unreleased".
-      cell = total > 0 ? group(total) : 'new';
-      if (total > 0) published += 1;
       grandTotal += total;
+      if (total > 0) {
+        published += 1;
+        shown = compact(total);
+        exact = `${group(total)} downloads`;
+      } else {
+        // Published days ago with nothing recorded yet: "new", not a bare zero.
+        shown = 'new';
+        exact = 'newly published';
+        colour = '6f42c1';
+      }
     } else if (p.vscode) {
-      cell = `${group(await vscodeInstalls(p.vscode))} installs`;
+      const installs = await vscodeInstalls(p.vscode);
+      shown = `${compact(installs)} installs`;
+      exact = `${group(installs)} installs`;
     }
 
-    console.log(`  ${name.padEnd(34)} ${String(starCount).padStart(4)}★  ${cell}`);
+    console.log(`  ${name.padEnd(34)} ${String(starCount).padStart(4)}★  ${shown ?? '—'}`);
 
-    // Alt text carries the figure so it survives a text-only view or a screen reader.
-    const downloads =
-      cell === '—' ? '—' : `![${cell}](${badge(cell, cell === 'new' ? '6f42c1' : '343b41')})`;
+    const downloads = shown === null ? '—' : `![${exact}](${badge(shown, colour)})`;
 
     const starAlt = `${starCount} star${starCount === 1 ? '' : 's'}`;
     lines.push(`| ${title} | ![${starAlt}](${starsBadge(p.repo)}) | ${downloads} |`);
