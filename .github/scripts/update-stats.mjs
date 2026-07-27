@@ -59,7 +59,7 @@ async function json(url, { headers = {}, softNotFound = false, attempts = 6 } = 
     }
     if (attempt === attempts) throw new Error(`${res.status} after ${attempts} attempts for ${url}`);
     const backoff = attempt * 5000;
-    console.log(`  ${res.status} — retrying in ${backoff}ms (${attempt}/${attempts - 1})`);
+    console.log(`  ${res.status}, retrying in ${backoff}ms (${attempt}/${attempts - 1})`);
     await sleep(backoff);
   }
   throw new Error(`unreachable: ${url}`);
@@ -154,7 +154,7 @@ const compact = (n) => {
 
 /**
  * shields.io's static badge route, with the value baked in. Used for downloads because shields can no
- * longer compute a lifetime total — its `npm/dt` route redirects to an eighteen-month window — so the
+ * longer compute a lifetime total (its `npm/dt` route redirects to an eighteen-month window), so the
  * number is ours and only the styling is theirs. Being static, there is no upstream API behind it to
  * rate-limit or fail.
  *
@@ -167,8 +167,8 @@ const badge = (text, colour = '343b41') =>
   `https://img.shields.io/badge/${shieldEscape(text)}-${colour}?style=flat-square`;
 
 /**
- * Two-part badge. Label and message are escaped separately and joined by a single hyphen — the
- * separator shields expects. Passing "label-value" to `badge()` instead would escape that hyphen into
+ * Two-part badge. Label and message are escaped separately and joined by a single hyphen, which is
+ * the separator shields expects. Passing "label-value" to `badge()` instead would escape that hyphen into
  * `--` and render one pill reading "label-value".
  */
 const labelledBadge = (label, message, colour = '343b41') =>
@@ -205,12 +205,12 @@ for (const g of groups) {
 
   for (const p of g.projects) {
     const name = p.label ?? p.repo.split('/')[1];
-    const title = `[${name}](https://github.com/${p.repo})${p.note ? ` — ${p.note}` : ''}`;
+    const title = `[${name}](https://github.com/${p.repo})${p.note ? ` (${p.note})` : ''}`;
     const starCount = await stars(p.repo);
     starTotal += starCount;
 
-    // `shown` goes on the badge, `exact` into the alt text — a screen reader gets the precise figure
-    // while the page stays readable.
+    // `shown` goes on the badge, `exact` into the alt text, so a screen reader gets the precise
+    // figure while the page stays readable.
     let shown = null;
     let exact = null;
     let colour = '343b41';
@@ -239,9 +239,9 @@ for (const g of groups) {
       exact = `${group(installs)} installs`;
     }
 
-    console.log(`  ${name.padEnd(34)} ${String(starCount).padStart(4)}★  ${shown ?? '—'}`);
+    console.log(`  ${name.padEnd(34)} ${String(starCount).padStart(4)}★  ${shown ?? 'n/a'}`);
 
-    const downloads = shown === null ? '—' : `![${exact}](${badge(shown, colour)})`;
+    const downloads = shown === null ? 'not on npm' : `![${exact}](${badge(shown, colour)})`;
 
     const starAlt = `${starCount} star${starCount === 1 ? '' : 's'}`;
     lines.push(`| ${title} | ![${starAlt}](${starsBadge(p.repo)}) | ${downloads} |`);
@@ -251,7 +251,7 @@ for (const g of groups) {
 
 // A run where nothing resolved means the APIs refused us, not that the packages vanished.
 if (published < 5) {
-  console.error(`Only ${published} package(s) reported downloads — refusing to write a README of zeros.`);
+  console.error(`Only ${published} package(s) reported downloads, refusing to write a README of zeros.`);
   process.exit(1);
 }
 

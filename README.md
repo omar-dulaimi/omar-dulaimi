@@ -24,8 +24,8 @@ Alongside it: generators for Joi, Yup, class-validator and Valibot, permission l
 Firestore utilities.
 
 Currently working on extensions for **Prisma Next**, starting with
-[prisma-next-zod-json](https://github.com/omar-dulaimi/prisma-next-zod-json) — typed JSON columns
-validated by Zod.
+[prisma-next-zod-json](https://github.com/omar-dulaimi/prisma-next-zod-json), which adds typed JSON
+columns validated by Zod.
 
 **Stack:** TypeScript · Node.js · Prisma · Drizzle · tRPC / oRPC · GraphQL · Postgres · Firebase ·
 React / Next.js · NestJS
@@ -66,7 +66,7 @@ React / Next.js · NestJS
 
 ### Drizzle ORM
 
-[**DRZL**](https://github.com/use-drzl/drzl) — adapter-based codegen for Drizzle: Zod, Valibot and ArkType validators, typed CRUD services, and oRPC routers from your existing schema.
+[**DRZL**](https://github.com/use-drzl/drzl) is adapter-based codegen for Drizzle: Zod, Valibot and ArkType validators, typed CRUD services, and oRPC routers from your existing schema.
 
 | Project | Stars | Downloads |
 | --- | :---: | :---: |
@@ -76,7 +76,7 @@ React / Next.js · NestJS
 
 | Project | Stars | Downloads |
 | --- | :---: | :---: |
-| [firescope](https://github.com/omar-dulaimi/firescope) — Chrome DevTools panel for Firestore | ![8 stars](https://img.shields.io/github/stars/omar-dulaimi/firescope?style=flat-square&label=&labelColor=343b41) | — |
+| [firescope](https://github.com/omar-dulaimi/firescope) (Chrome DevTools panel for Firestore) | ![8 stars](https://img.shields.io/github/stars/omar-dulaimi/firescope?style=flat-square&label=&labelColor=343b41) | not on npm |
 | [firestore-prisma](https://github.com/omar-dulaimi/firestore-prisma) | ![10 stars](https://img.shields.io/github/stars/omar-dulaimi/firestore-prisma?style=flat-square&label=&labelColor=343b41) | ![711 downloads](https://img.shields.io/badge/711-343b41?style=flat-square) |
 | [firebase-functions-downloader](https://github.com/omar-dulaimi/firebase-functions-downloader) | ![4 stars](https://img.shields.io/github/stars/omar-dulaimi/firebase-functions-downloader?style=flat-square&label=&labelColor=343b41) | ![1,107 downloads](https://img.shields.io/badge/1.11K-343b41?style=flat-square) |
 | [firestore-indexes-diff](https://github.com/omar-dulaimi/firestore-indexes-diff) | ![3 stars](https://img.shields.io/github/stars/omar-dulaimi/firestore-indexes-diff?style=flat-square&label=&labelColor=343b41) | ![543 downloads](https://img.shields.io/badge/543-343b41?style=flat-square) |
@@ -86,7 +86,7 @@ React / Next.js · NestJS
 
 | Project | Stars | Downloads |
 | --- | :---: | :---: |
-| [breakpoint-bookmarks](https://github.com/omar-dulaimi/breakpoint-bookmarks) — VS Code extension | ![11 stars](https://img.shields.io/github/stars/omar-dulaimi/breakpoint-bookmarks?style=flat-square&label=&labelColor=343b41) | ![2,968 installs](https://img.shields.io/badge/2.97K_installs-343b41?style=flat-square) |
+| [breakpoint-bookmarks](https://github.com/omar-dulaimi/breakpoint-bookmarks) (VS Code extension) | ![11 stars](https://img.shields.io/github/stars/omar-dulaimi/breakpoint-bookmarks?style=flat-square&label=&labelColor=343b41) | ![2,968 installs](https://img.shields.io/badge/2.97K_installs-343b41?style=flat-square) |
 | [graphql-shield-generator](https://github.com/omar-dulaimi/graphql-shield-generator) | ![10 stars](https://img.shields.io/github/stars/omar-dulaimi/graphql-shield-generator?style=flat-square&label=&labelColor=343b41) | ![5,675 downloads](https://img.shields.io/badge/5.67K-343b41?style=flat-square) |
 <!-- PROJECTS:END -->
 
