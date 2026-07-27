@@ -126,6 +126,23 @@ async function vscodeInstalls(extensionId) {
 }
 
 const group = (n) => n.toLocaleString('en-GB');
+
+/**
+ * shields.io's static badge route, with the value baked in. Used for downloads because shields can no
+ * longer compute a lifetime total — its `npm/dt` route redirects to an eighteen-month window — so the
+ * number is ours and only the styling is theirs. Being static, there is no upstream API behind it to
+ * rate-limit or fail.
+ *
+ * Escaping per shields: `-` doubles, `_` doubles, and a space becomes `_`.
+ */
+const badge = (text, colour = '343b41') => {
+  const escaped = String(text).replace(/-/g, '--').replace(/_/g, '__').replace(/ /g, '_');
+  return `https://img.shields.io/badge/${encodeURIComponent(escaped)}-${colour}?style=flat-square`;
+};
+
+/** Live route: unlike downloads, shields still serves a current star count, so let it stay fresh. */
+const starsBadge = (repo) =>
+  `https://img.shields.io/github/stars/${repo}?style=flat-square&label=&labelColor=343b41`;
 /** Rounded down: "roughly 112,000 a week" should not imply precision a weekly average lacks. */
 const roughly = (n) => (n >= 10_000 ? group(Math.floor(n / 1000) * 1000) : group(n));
 
@@ -144,7 +161,7 @@ let published = 0;
 for (const g of groups) {
   const lines = [`### ${g.heading}`, ''];
   if (g.blurb) lines.push(g.blurb, '');
-  lines.push('| Project | Stars | Downloads |', '| --- | --- | --- |');
+  lines.push('| Project | Stars | Downloads |', '| --- | :---: | :---: |');
 
   for (const p of g.projects) {
     const name = p.label ?? p.repo.split('/')[1];
@@ -169,7 +186,13 @@ for (const g of groups) {
     }
 
     console.log(`  ${name.padEnd(34)} ${String(starCount).padStart(4)}★  ${cell}`);
-    lines.push(`| ${title} | ${group(starCount)} | ${cell} |`);
+
+    // Alt text carries the figure so it survives a text-only view or a screen reader.
+    const downloads =
+      cell === '—' ? '—' : `![${cell}](${badge(cell, cell === 'new' ? '6f42c1' : '343b41')})`;
+
+    const starAlt = `${starCount} star${starCount === 1 ? '' : 's'}`;
+    lines.push(`| ${title} | ![${starAlt}](${starsBadge(p.repo)}) | ${downloads} |`);
   }
   sections.push(lines.join('\n'));
 }
