@@ -4,6 +4,10 @@
 
 I build code generators and developer tooling, mostly around databases and type-safe APIs.
 
+<!-- TOTALS:START -->
+![2,663 stars](https://img.shields.io/badge/stars-2%2C663-343b41?style=flat-square) ![4,422,612 downloads](https://img.shields.io/badge/downloads-4.42M-343b41?style=flat-square)
+<!-- TOTALS:END -->
+
 [GitHub](https://github.com/omar-dulaimi) · [LinkedIn](https://www.linkedin.com/in/omar-dulaimi) · [dev.to](https://dev.to/omardulaimi) · [Sponsor](https://github.com/sponsors/omar-dulaimi)
 
 ---
@@ -82,7 +86,7 @@ React / Next.js · NestJS
 
 | Project | Stars | Downloads |
 | --- | :---: | :---: |
-| [breakpoint-bookmarks](https://github.com/omar-dulaimi/breakpoint-bookmarks) — VS Code extension | ![11 stars](https://img.shields.io/github/stars/omar-dulaimi/breakpoint-bookmarks?style=flat-square&label=&labelColor=343b41) | ![2,969 installs](https://img.shields.io/badge/2.97K_installs-343b41?style=flat-square) |
+| [breakpoint-bookmarks](https://github.com/omar-dulaimi/breakpoint-bookmarks) — VS Code extension | ![11 stars](https://img.shields.io/github/stars/omar-dulaimi/breakpoint-bookmarks?style=flat-square&label=&labelColor=343b41) | ![2,968 installs](https://img.shields.io/badge/2.97K_installs-343b41?style=flat-square) |
 | [graphql-shield-generator](https://github.com/omar-dulaimi/graphql-shield-generator) | ![10 stars](https://img.shields.io/github/stars/omar-dulaimi/graphql-shield-generator?style=flat-square&label=&labelColor=343b41) | ![5,675 downloads](https://img.shields.io/badge/5.67K-343b41?style=flat-square) |
 <!-- PROJECTS:END -->
 

@@ -160,10 +160,19 @@ const compact = (n) => {
  *
  * Escaping per shields: `-` doubles, `_` doubles, and a space becomes `_`.
  */
-const badge = (text, colour = '343b41') => {
-  const escaped = String(text).replace(/-/g, '--').replace(/_/g, '__').replace(/ /g, '_');
-  return `https://img.shields.io/badge/${encodeURIComponent(escaped)}-${colour}?style=flat-square`;
-};
+const shieldEscape = (text) =>
+  encodeURIComponent(String(text).replace(/-/g, '--').replace(/_/g, '__').replace(/ /g, '_'));
+
+const badge = (text, colour = '343b41') =>
+  `https://img.shields.io/badge/${shieldEscape(text)}-${colour}?style=flat-square`;
+
+/**
+ * Two-part badge. Label and message are escaped separately and joined by a single hyphen — the
+ * separator shields expects. Passing "label-value" to `badge()` instead would escape that hyphen into
+ * `--` and render one pill reading "label-value".
+ */
+const labelledBadge = (label, message, colour = '343b41') =>
+  `https://img.shields.io/badge/${shieldEscape(label)}-${shieldEscape(message)}-${colour}?style=flat-square`;
 
 /** Live route: unlike downloads, shields still serves a current star count, so let it stay fresh. */
 const starsBadge = (repo) =>
@@ -186,6 +195,7 @@ const weeklyByPackage = await weeklyForAll(allPackages);
 const sections = [];
 let weeklyTotal = 0;
 let grandTotal = 0;
+let starTotal = 0;
 let published = 0;
 
 for (const g of groups) {
@@ -197,6 +207,7 @@ for (const g of groups) {
     const name = p.label ?? p.repo.split('/')[1];
     const title = `[${name}](https://github.com/${p.repo})${p.note ? ` — ${p.note}` : ''}`;
     const starCount = await stars(p.repo);
+    starTotal += starCount;
 
     // `shown` goes on the badge, `exact` into the alt text — a screen reader gets the precise figure
     // while the page stays readable.
@@ -247,10 +258,21 @@ if (published < 5) {
 let readme = readFileSync(README, 'utf8');
 readme = splice(readme, 'PROJECTS', `\n${sections.join('\n\n')}\n`);
 readme = splice(readme, 'WEEKLY-DOWNLOADS', roughly(weeklyTotal));
+
+// Totals across the projects listed above, so a reader can add up the columns and get the same
+// figures. Deliberately not "all my repos": that would exclude trpc-shield (a fork) and DRZL (another
+// org) while counting three dozen repos too small to list.
+readme = splice(
+  readme,
+  'TOTALS',
+  `\n![${group(starTotal)} stars](${labelledBadge('stars', group(starTotal))}) ` +
+    `![${group(grandTotal)} downloads](${labelledBadge('downloads', compact(grandTotal))})\n`,
+);
 writeFileSync(README, readme);
 // Kept for continuity with the previous workflow, which recorded the all-time total here.
 writeFileSync('download_count.txt', `${grandTotal}\n`);
 
 console.log(
-  `\n${published} packages with downloads · ${group(grandTotal)} all time · ${roughly(weeklyTotal)} a week`,
+  `\n${published} packages · ${group(starTotal)} stars · ${group(grandTotal)} downloads all time · ` +
+    `${roughly(weeklyTotal)} a week`,
 );
