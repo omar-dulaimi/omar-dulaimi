@@ -1,0 +1,75 @@
+{
+  "$comment": "Single source of truth for the README project tables. `npm` may be a string or an array; arrays are summed, which is how a multi-package suite reports one figure. `vscode` uses the marketplace install count instead. Edit here, not in README.md — the tables are regenerated.",
+  "groups": [
+    {
+      "heading": "Prisma",
+      "projects": [
+        { "repo": "omar-dulaimi/prisma-zod-generator", "npm": "prisma-zod-generator" },
+        { "repo": "omar-dulaimi/prisma-next-zod-json", "npm": "prisma-next-zod-json" },
+        { "repo": "omar-dulaimi/prisma-class-validator-generator", "npm": "prisma-class-validator-generator" },
+        { "repo": "omar-dulaimi/prisma-trpc-generator", "npm": "prisma-trpc-generator" },
+        { "repo": "omar-dulaimi/prisma-trpc-shield-generator", "npm": "prisma-trpc-shield-generator" },
+        { "repo": "omar-dulaimi/prisma-orpc-generator", "npm": "prisma-orpc-generator" },
+        { "repo": "omar-dulaimi/prisma-joi-generator", "npm": "prisma-joi-generator" },
+        { "repo": "omar-dulaimi/prisma-yup-generator", "npm": "prisma-yup-generator" },
+        { "repo": "omar-dulaimi/prisma-valibot-generator", "npm": "prisma-valibot-generator" },
+        { "repo": "omar-dulaimi/prisma-schema-sorter", "npm": "prisma-schema-sorter" },
+        { "repo": "omar-dulaimi/prisma-json-server-generator", "npm": "prisma-json-server-generator" },
+        { "repo": "omar-dulaimi/prisma-custom-models-generator", "npm": "prisma-custom-models-generator" },
+        { "repo": "omar-dulaimi/prisma-query-inspector", "npm": "prisma-query-inspector" },
+        { "repo": "omar-dulaimi/json-to-prisma-schema-convertor", "npm": "json-to-prisma-schema-convertor" }
+      ]
+    },
+    {
+      "heading": "tRPC and oRPC",
+      "projects": [
+        { "repo": "omar-dulaimi/trpc-shield", "npm": "trpc-shield" },
+        { "repo": "omar-dulaimi/orpc-shield", "npm": "orpc-shield" },
+        { "repo": "omar-dulaimi/create-trpc-app", "npm": "create-trpc-appx" }
+      ]
+    },
+    {
+      "heading": "Drizzle ORM",
+      "blurb": "[**DRZL**](https://github.com/use-drzl/drzl) — adapter-based codegen for Drizzle: Zod, Valibot and ArkType validators, typed CRUD services, and oRPC routers from your existing schema.",
+      "projects": [
+        {
+          "repo": "use-drzl/drzl",
+          "label": "use-drzl/drzl",
+          "npm": [
+            "@drzl/cli",
+            "@drzl/analyzer",
+            "@drzl/generator-zod",
+            "@drzl/generator-valibot",
+            "@drzl/generator-arktype",
+            "@drzl/generator-service",
+            "@drzl/generator-orpc",
+            "@drzl/validation-core",
+            "@drzl/template-orpc-service",
+            "@drzl/template-standard"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Firebase and Firestore",
+      "projects": [
+        { "repo": "omar-dulaimi/firescope", "note": "Chrome DevTools panel for Firestore" },
+        { "repo": "omar-dulaimi/firestore-prisma", "npm": "firestore-prisma" },
+        { "repo": "omar-dulaimi/firebase-functions-downloader", "npm": "firebase-functions-downloader" },
+        { "repo": "omar-dulaimi/firestore-indexes-diff", "npm": "firestore-indexes-diff" },
+        { "repo": "omar-dulaimi/lang-firestore", "npm": "lang-firestore" }
+      ]
+    },
+    {
+      "heading": "Other tools",
+      "projects": [
+        {
+          "repo": "omar-dulaimi/breakpoint-bookmarks",
+          "note": "VS Code extension",
+          "vscode": "OmarDulaimi.breakpoint-bookmarks"
+        },
+        { "repo": "omar-dulaimi/graphql-shield-generator", "npm": "graphql-shield-generator" }
+      ]
+    }
+  ]
+}
