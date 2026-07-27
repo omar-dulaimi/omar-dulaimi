@@ -58,9 +58,10 @@ jobs:
           )
 
           total_downloads=0
+          weekly_downloads=0
 
           echo "📦 Calculating download statistics..."
-          
+
           for package in "${packages[@]}"; do
             echo "Checking downloads for $package..."
             downloads=$(curl -s "https://api.npmjs.org/downloads/range/2000-01-01:$(date +%Y-%m-%d)/$package" | node -e "
@@ -72,74 +73,67 @@ jobs:
                 console.log(0);
               }
             ")
-            
+
+            weekly=$(curl -s "https://api.npmjs.org/downloads/point/last-week/$package" | node -e "
+              try {
+                const data = JSON.parse(require('fs').readFileSync(0, 'utf8'));
+                console.log(data.downloads || 0);
+              } catch { console.log(0); }
+            ")
+
             if [ "$downloads" != "0" ]; then
-              echo "  → $downloads downloads"
+              echo "  → $downloads all-time, $weekly last week"
               total_downloads=$((total_downloads + downloads))
+              weekly_downloads=$((weekly_downloads + weekly))
             else
               echo "  → Package not found or no data"
             fi
           done
 
-          # Format the number with commas
-          formatted_downloads=$(echo $total_downloads | sed ':a;s/\B[0-9]\{3\}\>/,&/;ta')
-          
-          echo "🎉 Total downloads: $formatted_downloads"
+          commas() { echo "$1" | sed ':a;s/\B[0-9]\{3\}\>/,&/;ta'; }
+
+          # Rounded down to a round number: the README says "around N a week", and a figure like
+          # 112,409 implies a precision that a weekly average does not have.
+          if [ "$weekly_downloads" -ge 10000 ]; then
+            weekly_rounded=$(( weekly_downloads / 1000 * 1000 ))
+          else
+            weekly_rounded=$weekly_downloads
+          fi
+
+          formatted_downloads=$(commas "$total_downloads")
+          formatted_weekly=$(commas "$weekly_rounded")
+
+          echo "🎉 Total: $formatted_downloads all-time, $formatted_weekly a week"
           echo "downloads=$total_downloads" >> $GITHUB_OUTPUT
           echo "formatted_downloads=$formatted_downloads" >> $GITHUB_OUTPUT
+          echo "formatted_weekly=$formatted_weekly" >> $GITHUB_OUTPUT
 
       - name: Update README with download count
+        env:
+          WEEKLY: ${{ steps.downloads.outputs.formatted_weekly }}
         run: |
-          # Create a temporary file with the current download count
           echo "${{ steps.downloads.outputs.downloads }}" > download_count.txt
-          
-          # Update the README file with new download counts
-          DOWNLOADS="${{ steps.downloads.outputs.formatted_downloads }}"
-          
-          # Update the About Me section
-          sed -i "s/have collectively reached \*\*[0-9,]*K\+ downloads\*\*/have collectively reached **${DOWNLOADS}+ downloads**/" README.md
-          
-          # Update the Portfolio Overview badge
-          sed -i "s/Total%20Downloads-[0-9,]*[K]*[+]*/Total%20Downloads-${DOWNLOADS}+/" README.md
-          
-          # Commit the changes if there are any
+
+          # Replace between markers rather than pattern-matching the prose. The previous version used
+          # `sed "s/...\*\*[0-9,]*K\+ downloads\*\*/..."`, where `\+` is GNU's one-or-more quantifier
+          # rather than a literal plus — so it read as "one or more K" and never matched "878K+".
+          # The figure sat frozen for months while the badge, patched by a separate expression, moved on.
+          if ! grep -q "WEEKLY-DOWNLOADS:START" README.md; then
+            echo "::error::The WEEKLY-DOWNLOADS markers are missing from README.md — nothing to update."
+            exit 1
+          fi
+
+          # Single-quoted so perl, not bash, expands $ENV{WEEKLY}.
+          perl -0pi -e 's/(<!-- WEEKLY-DOWNLOADS:START -->).*?(<!-- WEEKLY-DOWNLOADS:END -->)/$1$ENV{WEEKLY}$2/s' README.md
+
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          
+
           if git diff --quiet README.md download_count.txt; then
             echo "No changes to commit"
           else
-            echo "Download count updated: $DOWNLOADS total downloads"
+            echo "Updated: ${WEEKLY} downloads a week"
             git add README.md download_count.txt
-            git commit -m "Update download statistics to $DOWNLOADS+ total downloads"
+            git commit -m "chore: update download stats to ${WEEKLY} a week"
             git push
           fi
-
-      - name: Create release with download stats
-        run: |
-          # Create a unique tag with timestamp to avoid conflicts
-          TIMESTAMP=$(date +%Y%m%d-%H%M%S)
-          TAG_NAME="downloads-${{ steps.downloads.outputs.downloads }}-${TIMESTAMP}"
-          
-          # Create release with download statistics
-          gh release create "${TAG_NAME}" \
-            --title "Download Stats Update - ${{ steps.downloads.outputs.formatted_downloads }}+" \
-            --notes "📊 **Total Downloads Milestone**
-
-          🎉 **${{ steps.downloads.outputs.formatted_downloads }}+ total downloads** across all npm packages!
-          
-          📈 **Package Breakdown:**
-          - Prisma ecosystem tools leading the way
-          - Drizzle ORM codegen gaining traction
-          - tRPC & oRPC frameworks powering APIs
-          - Firebase tools growing steadily
-          - Developer productivity extensions
-          
-          📅 **Recorded:** $(date '+%B %d, %Y at %H:%M UTC')
-          
-          This milestone represents the collective impact of open source tools 
-          helping thousands of developers build better applications." \
-            --latest
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
