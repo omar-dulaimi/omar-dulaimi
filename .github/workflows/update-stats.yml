@@ -1,0 +1,46 @@
+name: Update project stats
+
+on:
+  schedule:
+    # Monday, 06:00 UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+# Only one run at a time: two runs committing to README.md would race.
+concurrency:
+  group: update-stats
+  cancel-in-progress: false
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24.x'
+
+      - name: Regenerate the project tables
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # The script aborts rather than writing zeros if npm rate-limits it, so a failure here
+        # means the README was left alone.
+        run: node .github/scripts/update-stats.mjs
+
+      - name: Commit if anything changed
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet README.md download_count.txt; then
+            echo "Stats unchanged."
+            exit 0
+          fi
+
+          git add README.md download_count.txt
+          git commit -m "chore: refresh project stats [skip ci]"
+          git push
