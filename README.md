@@ -5,7 +5,7 @@
 I build code generators and developer tooling, mostly around databases and type-safe APIs.
 
 <!-- TOTALS:START -->
-![2,678 stars](https://img.shields.io/badge/stars-2%2C678-343b41?style=flat-square) ![5,270,476 downloads](https://img.shields.io/badge/downloads-5.27M-343b41?style=flat-square)
+![2,680 stars](https://img.shields.io/badge/stars-2%2C680-343b41?style=flat-square) ![5,360,895 downloads](https://img.shields.io/badge/downloads-5.36M-343b41?style=flat-square)
 <!-- TOTALS:END -->
 
 [GitHub](https://github.com/omar-dulaimi) · [LinkedIn](https://www.linkedin.com/in/omar-dulaimi) · [dev.to](https://dev.to/omardulaimi) · [Sponsor](https://github.com/sponsors/omar-dulaimi)
@@ -18,7 +18,7 @@ Most of my work is codegen: you describe your data once, and the tooling emits t
 and services that would otherwise be written by hand and drift out of sync.
 
 The largest is **[prisma-zod-generator](https://github.com/omar-dulaimi/prisma-zod-generator)**, which
-turns a Prisma schema into Zod schemas. Across my packages that comes to roughly <!-- WEEKLY-DOWNLOADS:START -->107,000<!-- WEEKLY-DOWNLOADS:END --> downloads a week.
+turns a Prisma schema into Zod schemas. Across my packages that comes to roughly <!-- WEEKLY-DOWNLOADS:START -->90,000<!-- WEEKLY-DOWNLOADS:END --> downloads a week.
 Alongside it: generators for Joi, Yup, class-validator and Valibot, permission layers for tRPC and oRPC
 (`trpc-shield`, `orpc-shield`), a codegen suite for Drizzle ORM (**DRZL**), and a set of Firebase and
 Firestore utilities.
@@ -41,28 +41,28 @@ React / Next.js · NestJS
 
 | Project | Stars | Downloads |
 | --- | :---: | :---: |
-| [prisma-zod-generator](https://github.com/omar-dulaimi/prisma-zod-generator) | ![830 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-zod-generator?style=flat-square&label=&labelColor=343b41) | ![3,693,740 downloads](https://img.shields.io/badge/3.69M-343b41?style=flat-square) |
-| [prisma-next-zod-json](https://github.com/omar-dulaimi/prisma-next-zod-json) | ![1 star](https://img.shields.io/github/stars/omar-dulaimi/prisma-next-zod-json?style=flat-square&label=&labelColor=343b41) | ![442 downloads](https://img.shields.io/badge/442-343b41?style=flat-square) |
-| [prisma-class-validator-generator](https://github.com/omar-dulaimi/prisma-class-validator-generator) | ![91 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-class-validator-generator?style=flat-square&label=&labelColor=343b41) | ![249,025 downloads](https://img.shields.io/badge/249.03K-343b41?style=flat-square) |
-| [prisma-trpc-generator](https://github.com/omar-dulaimi/prisma-trpc-generator) | ![739 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-trpc-generator?style=flat-square&label=&labelColor=343b41) | ![246,894 downloads](https://img.shields.io/badge/246.89K-343b41?style=flat-square) |
-| [prisma-trpc-shield-generator](https://github.com/omar-dulaimi/prisma-trpc-shield-generator) | ![52 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-trpc-shield-generator?style=flat-square&label=&labelColor=343b41) | ![240,963 downloads](https://img.shields.io/badge/240.96K-343b41?style=flat-square) |
-| [prisma-orpc-generator](https://github.com/omar-dulaimi/prisma-orpc-generator) | ![38 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-orpc-generator?style=flat-square&label=&labelColor=343b41) | ![5,735 downloads](https://img.shields.io/badge/5.74K-343b41?style=flat-square) |
-| [prisma-joi-generator](https://github.com/omar-dulaimi/prisma-joi-generator) | ![45 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-joi-generator?style=flat-square&label=&labelColor=343b41) | ![56,586 downloads](https://img.shields.io/badge/56.59K-343b41?style=flat-square) |
-| [prisma-yup-generator](https://github.com/omar-dulaimi/prisma-yup-generator) | ![56 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-yup-generator?style=flat-square&label=&labelColor=343b41) | ![135,627 downloads](https://img.shields.io/badge/135.63K-343b41?style=flat-square) |
-| [prisma-valibot-generator](https://github.com/omar-dulaimi/prisma-valibot-generator) | ![9 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-valibot-generator?style=flat-square&label=&labelColor=343b41) | ![3,083 downloads](https://img.shields.io/badge/3.08K-343b41?style=flat-square) |
-| [prisma-schema-sorter](https://github.com/omar-dulaimi/prisma-schema-sorter) | ![25 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-schema-sorter?style=flat-square&label=&labelColor=343b41) | ![137,460 downloads](https://img.shields.io/badge/137.46K-343b41?style=flat-square) |
-| [prisma-json-server-generator](https://github.com/omar-dulaimi/prisma-json-server-generator) | ![28 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-json-server-generator?style=flat-square&label=&labelColor=343b41) | ![6,126 downloads](https://img.shields.io/badge/6.13K-343b41?style=flat-square) |
-| [prisma-custom-models-generator](https://github.com/omar-dulaimi/prisma-custom-models-generator) | ![22 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-custom-models-generator?style=flat-square&label=&labelColor=343b41) | ![13,612 downloads](https://img.shields.io/badge/13.61K-343b41?style=flat-square) |
-| [prisma-query-inspector](https://github.com/omar-dulaimi/prisma-query-inspector) | ![10 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-query-inspector?style=flat-square&label=&labelColor=343b41) | ![18,997 downloads](https://img.shields.io/badge/19.00K-343b41?style=flat-square) |
-| [json-to-prisma-schema-convertor](https://github.com/omar-dulaimi/json-to-prisma-schema-convertor) | ![48 stars](https://img.shields.io/github/stars/omar-dulaimi/json-to-prisma-schema-convertor?style=flat-square&label=&labelColor=343b41) | ![8,653 downloads](https://img.shields.io/badge/8.65K-343b41?style=flat-square) |
+| [prisma-zod-generator](https://github.com/omar-dulaimi/prisma-zod-generator) | ![830 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-zod-generator?style=flat-square&label=&labelColor=343b41) | ![3,771,290 downloads](https://img.shields.io/badge/3.77M-343b41?style=flat-square) |
+| [prisma-next-zod-json](https://github.com/omar-dulaimi/prisma-next-zod-json) | ![1 star](https://img.shields.io/github/stars/omar-dulaimi/prisma-next-zod-json?style=flat-square&label=&labelColor=343b41) | ![newly published](https://img.shields.io/badge/new-6f42c1?style=flat-square) |
+| [prisma-class-validator-generator](https://github.com/omar-dulaimi/prisma-class-validator-generator) | ![91 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-class-validator-generator?style=flat-square&label=&labelColor=343b41) | ![249,696 downloads](https://img.shields.io/badge/249.70K-343b41?style=flat-square) |
+| [prisma-trpc-generator](https://github.com/omar-dulaimi/prisma-trpc-generator) | ![739 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-trpc-generator?style=flat-square&label=&labelColor=343b41) | ![247,260 downloads](https://img.shields.io/badge/247.26K-343b41?style=flat-square) |
+| [prisma-trpc-shield-generator](https://github.com/omar-dulaimi/prisma-trpc-shield-generator) | ![52 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-trpc-shield-generator?style=flat-square&label=&labelColor=343b41) | ![241,317 downloads](https://img.shields.io/badge/241.32K-343b41?style=flat-square) |
+| [prisma-orpc-generator](https://github.com/omar-dulaimi/prisma-orpc-generator) | ![38 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-orpc-generator?style=flat-square&label=&labelColor=343b41) | ![5,813 downloads](https://img.shields.io/badge/5.81K-343b41?style=flat-square) |
+| [prisma-joi-generator](https://github.com/omar-dulaimi/prisma-joi-generator) | ![45 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-joi-generator?style=flat-square&label=&labelColor=343b41) | ![58,906 downloads](https://img.shields.io/badge/58.91K-343b41?style=flat-square) |
+| [prisma-yup-generator](https://github.com/omar-dulaimi/prisma-yup-generator) | ![56 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-yup-generator?style=flat-square&label=&labelColor=343b41) | ![135,721 downloads](https://img.shields.io/badge/135.72K-343b41?style=flat-square) |
+| [prisma-valibot-generator](https://github.com/omar-dulaimi/prisma-valibot-generator) | ![9 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-valibot-generator?style=flat-square&label=&labelColor=343b41) | ![3,164 downloads](https://img.shields.io/badge/3.16K-343b41?style=flat-square) |
+| [prisma-schema-sorter](https://github.com/omar-dulaimi/prisma-schema-sorter) | ![25 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-schema-sorter?style=flat-square&label=&labelColor=343b41) | ![138,176 downloads](https://img.shields.io/badge/138.18K-343b41?style=flat-square) |
+| [prisma-json-server-generator](https://github.com/omar-dulaimi/prisma-json-server-generator) | ![28 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-json-server-generator?style=flat-square&label=&labelColor=343b41) | ![6,155 downloads](https://img.shields.io/badge/6.16K-343b41?style=flat-square) |
+| [prisma-custom-models-generator](https://github.com/omar-dulaimi/prisma-custom-models-generator) | ![22 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-custom-models-generator?style=flat-square&label=&labelColor=343b41) | ![13,678 downloads](https://img.shields.io/badge/13.68K-343b41?style=flat-square) |
+| [prisma-query-inspector](https://github.com/omar-dulaimi/prisma-query-inspector) | ![10 stars](https://img.shields.io/github/stars/omar-dulaimi/prisma-query-inspector?style=flat-square&label=&labelColor=343b41) | ![19,046 downloads](https://img.shields.io/badge/19.05K-343b41?style=flat-square) |
+| [json-to-prisma-schema-convertor](https://github.com/omar-dulaimi/json-to-prisma-schema-convertor) | ![48 stars](https://img.shields.io/github/stars/omar-dulaimi/json-to-prisma-schema-convertor?style=flat-square&label=&labelColor=343b41) | ![9,117 downloads](https://img.shields.io/badge/9.12K-343b41?style=flat-square) |
 
 ### tRPC and oRPC
 
 | Project | Stars | Downloads |
 | --- | :---: | :---: |
-| [trpc-shield](https://github.com/omar-dulaimi/trpc-shield) | ![434 stars](https://img.shields.io/github/stars/omar-dulaimi/trpc-shield?style=flat-square&label=&labelColor=343b41) | ![242,892 downloads](https://img.shields.io/badge/242.89K-343b41?style=flat-square) |
-| [orpc-shield](https://github.com/omar-dulaimi/orpc-shield) | ![62 stars](https://img.shields.io/github/stars/omar-dulaimi/orpc-shield?style=flat-square&label=&labelColor=343b41) | ![5,967 downloads](https://img.shields.io/badge/5.97K-343b41?style=flat-square) |
-| [create-trpc-app](https://github.com/omar-dulaimi/create-trpc-app) | ![30 stars](https://img.shields.io/github/stars/omar-dulaimi/create-trpc-app?style=flat-square&label=&labelColor=343b41) | ![6,819 downloads](https://img.shields.io/badge/6.82K-343b41?style=flat-square) |
+| [trpc-shield](https://github.com/omar-dulaimi/trpc-shield) | ![435 stars](https://img.shields.io/github/stars/omar-dulaimi/trpc-shield?style=flat-square&label=&labelColor=343b41) | ![247,148 downloads](https://img.shields.io/badge/247.15K-343b41?style=flat-square) |
+| [orpc-shield](https://github.com/omar-dulaimi/orpc-shield) | ![62 stars](https://img.shields.io/github/stars/omar-dulaimi/orpc-shield?style=flat-square&label=&labelColor=343b41) | ![5,982 downloads](https://img.shields.io/badge/5.98K-343b41?style=flat-square) |
+| [create-trpc-app](https://github.com/omar-dulaimi/create-trpc-app) | ![30 stars](https://img.shields.io/github/stars/omar-dulaimi/create-trpc-app?style=flat-square&label=&labelColor=343b41) | ![6,821 downloads](https://img.shields.io/badge/6.82K-343b41?style=flat-square) |
 
 ### Drizzle ORM
 
@@ -70,24 +70,24 @@ React / Next.js · NestJS
 
 | Project | Stars | Downloads |
 | --- | :---: | :---: |
-| [use-drzl/drzl](https://github.com/use-drzl/drzl) | ![108 stars](https://img.shields.io/github/stars/use-drzl/drzl?style=flat-square&label=&labelColor=343b41) | ![187,912 downloads](https://img.shields.io/badge/187.91K-343b41?style=flat-square) |
+| [use-drzl/drzl](https://github.com/use-drzl/drzl) | ![108 stars](https://img.shields.io/github/stars/use-drzl/drzl?style=flat-square&label=&labelColor=343b41) | ![191,591 downloads](https://img.shields.io/badge/191.59K-343b41?style=flat-square) |
 
 ### Firebase and Firestore
 
 | Project | Stars | Downloads |
 | --- | :---: | :---: |
 | [firescope](https://github.com/omar-dulaimi/firescope) (Chrome DevTools panel for Firestore) | ![8 stars](https://img.shields.io/github/stars/omar-dulaimi/firescope?style=flat-square&label=&labelColor=343b41) | not on npm |
-| [firestore-prisma](https://github.com/omar-dulaimi/firestore-prisma) | ![10 stars](https://img.shields.io/github/stars/omar-dulaimi/firestore-prisma?style=flat-square&label=&labelColor=343b41) | ![920 downloads](https://img.shields.io/badge/920-343b41?style=flat-square) |
-| [firebase-functions-downloader](https://github.com/omar-dulaimi/firebase-functions-downloader) | ![4 stars](https://img.shields.io/github/stars/omar-dulaimi/firebase-functions-downloader?style=flat-square&label=&labelColor=343b41) | ![1,375 downloads](https://img.shields.io/badge/1.38K-343b41?style=flat-square) |
-| [firestore-indexes-diff](https://github.com/omar-dulaimi/firestore-indexes-diff) | ![3 stars](https://img.shields.io/github/stars/omar-dulaimi/firestore-indexes-diff?style=flat-square&label=&labelColor=343b41) | ![751 downloads](https://img.shields.io/badge/751-343b41?style=flat-square) |
-| [lang-firestore](https://github.com/omar-dulaimi/lang-firestore) | ![4 stars](https://img.shields.io/github/stars/omar-dulaimi/lang-firestore?style=flat-square&label=&labelColor=343b41) | ![786 downloads](https://img.shields.io/badge/786-343b41?style=flat-square) |
+| [firestore-prisma](https://github.com/omar-dulaimi/firestore-prisma) | ![10 stars](https://img.shields.io/github/stars/omar-dulaimi/firestore-prisma?style=flat-square&label=&labelColor=343b41) | ![924 downloads](https://img.shields.io/badge/924-343b41?style=flat-square) |
+| [firebase-functions-downloader](https://github.com/omar-dulaimi/firebase-functions-downloader) | ![4 stars](https://img.shields.io/github/stars/omar-dulaimi/firebase-functions-downloader?style=flat-square&label=&labelColor=343b41) | ![1,381 downloads](https://img.shields.io/badge/1.38K-343b41?style=flat-square) |
+| [firestore-indexes-diff](https://github.com/omar-dulaimi/firestore-indexes-diff) | ![3 stars](https://img.shields.io/github/stars/omar-dulaimi/firestore-indexes-diff?style=flat-square&label=&labelColor=343b41) | ![754 downloads](https://img.shields.io/badge/754-343b41?style=flat-square) |
+| [lang-firestore](https://github.com/omar-dulaimi/lang-firestore) | ![4 stars](https://img.shields.io/github/stars/omar-dulaimi/lang-firestore?style=flat-square&label=&labelColor=343b41) | ![792 downloads](https://img.shields.io/badge/792-343b41?style=flat-square) |
 
 ### Other tools
 
 | Project | Stars | Downloads |
 | --- | :---: | :---: |
-| [breakpoint-bookmarks](https://github.com/omar-dulaimi/breakpoint-bookmarks) (VS Code extension) | ![11 stars](https://img.shields.io/github/stars/omar-dulaimi/breakpoint-bookmarks?style=flat-square&label=&labelColor=343b41) | ![3,004 installs](https://img.shields.io/badge/3.00K_installs-343b41?style=flat-square) |
-| [graphql-shield-generator](https://github.com/omar-dulaimi/graphql-shield-generator) | ![10 stars](https://img.shields.io/github/stars/omar-dulaimi/graphql-shield-generator?style=flat-square&label=&labelColor=343b41) | ![6,111 downloads](https://img.shields.io/badge/6.11K-343b41?style=flat-square) |
+| [breakpoint-bookmarks](https://github.com/omar-dulaimi/breakpoint-bookmarks) (VS Code extension) | ![12 stars](https://img.shields.io/github/stars/omar-dulaimi/breakpoint-bookmarks?style=flat-square&label=&labelColor=343b41) | ![3,009 installs](https://img.shields.io/badge/3.01K_installs-343b41?style=flat-square) |
+| [graphql-shield-generator](https://github.com/omar-dulaimi/graphql-shield-generator) | ![10 stars](https://img.shields.io/github/stars/omar-dulaimi/graphql-shield-generator?style=flat-square&label=&labelColor=343b41) | ![6,163 downloads](https://img.shields.io/badge/6.16K-343b41?style=flat-square) |
 <!-- PROJECTS:END -->
 
 ---
